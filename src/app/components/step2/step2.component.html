@@ -1,27 +1,27 @@
-<h1>¿En qué fechas?</h1>
+<div class="container col-xs-6 col-md-offset-4">
+  <h1>¿En qué fechas?</h1>
 
-<p>Fecha fija:</p>
-<input type="date" [(ngModel)]="fecha">
-<br>
+  <p>Fecha fija:</p>
+  <input type="date" [(ngModel)]="fecha">
+  <br>
 
-<p>Periodo aproximado:</p>
+  <p>Periodo aproximado:</p>
 
-<div class="radio">
-  <label>
+  <div class="radio">
+    <label>
     <input type="radio" name="optradio" [value]="1" [(ngModel)]="periodo">1</label>
-  <label>
+    <label>
     <input type="radio" name="optradio" [value]="3" [(ngModel)]="periodo">3</label>
-  <label>
+    <label>
     <input type="radio" name="optradio" [value]="6" [(ngModel)]="periodo">6</label>
-  <label>
+    <label>
     <input type="radio" name="optradio" [value]="9" [(ngModel)]="periodo">9</label>
-  <label>
+    <label>
     <input type="radio" name="optradio" [value]="12" [(ngModel)]="periodo">12</label>
-</div>
+  </div>
 
-<br>
-{{duracion}}
-<mk-dropdown toggleText="Duración" buttonStyleClass="btn btn-success dropdown-toggle">
+  <br> {{duracion}}
+  <mk-dropdown toggleText="Duración" buttonStyleClass="btn btn-success dropdown-toggle">
     <li style="text-align: center" (click)="duracionGuardar(1)">1</li>
     <li style="text-align: center" (click)="duracionGuardar(2)">2</li>
     <li style="text-align: center" (click)="duracionGuardar(3)">3</li>
@@ -55,5 +55,4 @@
   </mk-dropdown>
 
   <button type="button" (click)="go()">Siguiente</button>
-   
-  
+</div>

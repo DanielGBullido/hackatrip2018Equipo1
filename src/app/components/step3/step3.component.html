@@ -1,27 +1,29 @@
-<h1>¡Te proponesmos tres itinerarios de ahorro!</h1>
+<div class="container col-xs-6 col-md-offset-4">
+  <h1>¡Te proponesmos tres itinerarios de ahorro!</h1>
 
-<div class="radio">
-  <div class="col-md-12">
-    <label>
+  <div class="radio">
+    <div class="col-md-12">
+      <label>
         <input type="radio" name="optradio" [value]="1" [(ngModel)]="ahorro">
       Redondeo a 1€ plazo aproximado de ahorro 11 meses
-      
+
     </label>
-  </div>
-  <div class="col-md-12">
-    <label>
+    </div>
+    <div class="col-md-12">
+      <label>
         <input type="radio" name="optradio" [value]="3" [(ngModel)]="ahorro">
       Redondeo a 3€ plazo aproximado de ahorro 4 meses
 
     </label>
-  </div>
-  <div class="col-md-12">
+    </div>
+    <div class="col-md-12">
       <label>
           <input type="radio" name="optradio" [value]="6" [(ngModel)]="ahorro">
         Redondeo a 6€ plazo aproximado de ahorro 2 meses
-  
-      </label>
-  </div>
-</div>
 
-<button   type="button"><a href="https://connect.bbva.com/token/authorize?client_id=app.bbva.equipo1&response_type=code&redirect_uri=http://localhost:4200/dashboard">Calcular</a></button>
+      </label>
+    </div>
+  </div>
+
+  <button type="button"><a href="https://connect.bbva.com/token/authorize?client_id=app.bbva.equipo1&response_type=code&redirect_uri=http://localhost:4200/dashboard">Calcular</a></button>
+</div>
