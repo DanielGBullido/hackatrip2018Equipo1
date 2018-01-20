@@ -37,19 +37,19 @@ export class AppComponent {
     // }).subscribe(data => {
     //   // data is now an instance of type ItemsResponse, so you can do this:
     //   let as = data;
+    // // });
+    // const YOURREDIRECTURI = 'https://apis.bbva.com/customers/v1/me-basic';
+    // this.http.get(`https://connect.bbva.com/token/authorize?client_id=app.bbva.equipo1&response_type=code&redirect_uri=${YOURREDIRECTURI}`).subscribe((data: any) => {
+    //   // data is now an instance of type ItemsResponse, so you can do this:
+    //   let as = data;
+    //   this.http.get(`https://apis.bbva.com/customers-sbx/v1/me-basic`, {
+    //     headers: new HttpHeaders()
+    //       .set('Authorization', `jwt ${data.token}.`)
+    //       .set('Content-Type', 'application/json')
+    //   }).subscribe((datas: any) => {
+    //     let aser = datas;
+    //   });
     // });
-    const YOURREDIRECTURI = 'https://apis.bbva.com/customers/v1/me-basic';
-    this.http.get(`https://connect.bbva.com/token/authorize?client_id=app.bbva.equipo1&response_type=code&redirect_uri=${YOURREDIRECTURI}`).subscribe((data: any) => {
-      // data is now an instance of type ItemsResponse, so you can do this:
-      let as = data;
-      this.http.get(`https://apis.bbva.com/customers-sbx/v1/me-basic`, {
-        headers: new HttpHeaders()
-          .set('Authorization', `jwt ${data.token}.`)
-          .set('Content-Type', 'application/json')
-      }).subscribe((datas: any) => {
-        let aser = datas;
-      });
-    });
     // let a = this.bbvaService.getBBVA(`https://apis.bbva.com/customers/v1/me-basic`);
   }
 }
