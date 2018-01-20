@@ -1,26 +1,67 @@
-<div class="container col-xs-6 col-md-offset-4">
+<div class="container steps col-xs-6 col-md-offset-3">
   <h1>¿En qué fechas?</h1>
-
-  <p>Fecha fija:</p>
-  <input type="date" [(ngModel)]="fecha">
   <br>
+  <br>
+  <div class="form-horizontal">
+    <div class="form-group">
+      <label class="col-sm-5 control-label" for="fecha">¿Qué dia empieza la aventura?: </label>
+      <div class="col-sm-7">
+        <input type="date" class="form-control" id="fecha" [(ngModel)]="fecha">
+      </div>
+    </div>
 
-  <p>Periodo aproximado:</p>
+    <hr>
 
-  <div class="radio">
-    <label>
-    <input type="radio" name="optradio" [value]="1" [(ngModel)]="periodo">1</label>
-    <label>
-    <input type="radio" name="optradio" [value]="3" [(ngModel)]="periodo">3</label>
-    <label>
-    <input type="radio" name="optradio" [value]="6" [(ngModel)]="periodo">6</label>
-    <label>
-    <input type="radio" name="optradio" [value]="9" [(ngModel)]="periodo">9</label>
-    <label>
-    <input type="radio" name="optradio" [value]="12" [(ngModel)]="periodo">12</label>
+    <div class="form-group">
+      <label class="col-sm-3 control-label" for="fecha">En un periodo de... </label>
+      <div class="col-sm-9 radioButtons">
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optradio" id="optionsRadios1" [value]="1" [(ngModel)]="periodo">
+          1 mes
+        </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optradio" id="optionsRadios2" [value]="3" [(ngModel)]="periodo" checked>
+          3 meses
+        </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optradio" id="optionsRadios3" [value]="6" [(ngModel)]="periodo">
+          6 meses
+        </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optradio" id="optionsRadios4" [value]="9" [(ngModel)]="periodo">
+          9 meses
+        </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="optradio" id="optionsRadios5" [value]="12" [(ngModel)]="periodo">
+          1 año
+        </label>
+        </div>
+
+      </div>
+    </div>
   </div>
 
   <br> {{duracion}}
+
+  <br>
+  <br>
+  <br>
+
+
   <mk-dropdown toggleText="Duración" buttonStyleClass="btn btn-success dropdown-toggle">
     <li style="text-align: center" (click)="duracionGuardar(1)">1</li>
     <li style="text-align: center" (click)="duracionGuardar(2)">2</li>
@@ -53,6 +94,7 @@
     <li style="text-align: center" (click)="duracionGuardar(29)">29</li>
     <li style="text-align: center" (click)="duracionGuardar(30)">30</li>
   </mk-dropdown>
+  <br>
+  <button type="button" class="btn btn-default" (click)="go()">No queda nada!</button>
 
-  <button type="button" (click)="go()">Siguiente</button>
 </div>
