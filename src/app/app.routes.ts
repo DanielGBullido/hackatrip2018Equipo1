@@ -5,17 +5,20 @@ import { Step1Component } from './components/step1/step1.component';
 import { Step2Component } from './components/step2/step2.component';
 import { Step3Component } from './components/step3/step3.component';
 
+import { AuthGuardService } from './services/auth/auth-guard.service';
+
 const app_routes: Routes = [
   { path: 'login', component: LoginComponent },
   {
-    path: 'home',
+    path: 'dashboard',
     component: DashboardComponent,
-    //canActivate: [AuthenticationGuardService]
+    canActivate: [AuthGuardService]
   },
-  { path: 'step1', component: Step1Component },
-  { path: 'step2', component: Step2Component },
-  { path: 'step3', component: Step3Component },
-  { path: '**', pathMatch: 'full', redirectTo: 'home' },
+  { path: 'step1', component: Step1Component, canActivate: [AuthGuardService] },
+  { path: 'step2', component: Step2Component, canActivate: [AuthGuardService] },
+  { path: 'step3', component: Step3Component, canActivate: [AuthGuardService] },
+  { path: '', pathMatch: 'full', redirectTo: 'login' },
+  { path: '**', pathMatch: 'full', redirectTo: 'dashboard' }
 
 ];
 
