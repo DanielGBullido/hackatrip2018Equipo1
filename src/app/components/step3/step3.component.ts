@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-step3',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Step3Component implements OnInit {
   ahorroInput = 0;
-  constructor() { }
+  ahorro: number;
+  display = false;
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
 
+  calcular() {
+    this.router.navigateByUrl(
+      'https://connect.bbva.com/token/authorize?client_id=app.bbva.equipo1&response_type=code&redirect_uri=http://localhost:4200/dashboard');
+  //   window.open(
+  //     'https://connect.bbva.com/token/authorize?client_id=app.bbva.equipo1&response_type=code&redirect_uri=http://localhost:4200/dashboard');
+  // }
+  // 
+}
 }
