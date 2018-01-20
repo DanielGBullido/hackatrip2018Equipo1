@@ -6,8 +6,7 @@ import { HttpClient, HttpHeaders, HttpClientModule, HTTP_INTERCEPTORS } from "@a
 /*****ROUTES******/
 import { APP_ROUTING } from './app.routes';
 
-import { LayoutModule } from 'angular-admin-lte';    //Loading layout module
-import { BoxModule } from 'angular-admin-lte';
+import { LayoutModule, AccordionModule, BoxInfoModule, BoxSmallModule, BoxModule } from 'angular-admin-lte';
 import { adminLteConf } from '../../config/admin-lte';
 
 import { AppComponent } from './app.component';
@@ -38,6 +37,9 @@ import { Step1Component } from './components/step1/step1.component';
     LayoutModule.forRoot(adminLteConf),
     FormsModule,
     HttpClientModule,
+    AccordionModule,
+    BoxInfoModule,
+    BoxSmallModule,
     APP_ROUTING
   ],
   providers: [

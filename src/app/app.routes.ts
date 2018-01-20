@@ -11,7 +11,8 @@ const app_routes: Routes = [
     //canActivate: [AuthenticationGuardService]
   },
   { path: 'step1', component: Step1Component },
-  { path: '**', pathMatch: 'full', redirectTo: 'home' },
+  { path: '', pathMatch: 'full', redirectTo: 'home' },
+  { path: '**', pathMatch: 'full', redirectTo: 'home' }
 
 ];
 

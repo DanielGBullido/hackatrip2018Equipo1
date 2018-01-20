@@ -5,8 +5,7 @@
   <app-sidebar *ngIf="auth.isAuthenticated()"></app-sidebar>
 
   <mk-layout-content [ngClass]="{
-    'bg-dark app-container':!auth.isAuthenticated(),
-  'content-wrapper':auth.isAuthenticated()}">
+    'bg-dark app-container':!auth.isAuthenticated()}">
     <router-outlet></router-outlet>
   </mk-layout-content>
 

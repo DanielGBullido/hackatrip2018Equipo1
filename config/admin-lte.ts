@@ -1,5 +1,5 @@
 export var adminLteConf = {
-  skin: 'red',
+  skin: 'purple',
   sidebarLeftMenu: [
     { label: 'MAIN NAVIGATION', separator: true },
     { label: 'Login', route: '/', iconClasses: 'fa fa-th' },
