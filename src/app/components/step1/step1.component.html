@@ -1,7 +1,7 @@
 
 <h1>¿Has elegido ya tu destino?</h1>
 
-<p>Me apetece viajar a: </p> <input type="text">
-
-<button type="button">¡Todavia no lo tengo claro!
+<p>Me apetece viajar a: <input type="text" [(ngModel)]="ciudad"> <button type="button" (click)="go()">Go!</button> </p> 
+<br>
+<button type="button" (click)="go()">¡Todavia no lo tengo claro!
    Esperare un poquito más.</button>

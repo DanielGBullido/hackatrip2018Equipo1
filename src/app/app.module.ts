@@ -19,6 +19,9 @@ import { FooterComponent } from './components/shared/footer/footer.component';
 import { SidebarComponent } from './components/shared/sidebar/sidebar.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { Step1Component } from './components/step1/step1.component';
+import { Step2Component } from './components/step2/step2.component';
+import { DropdownModule } from 'angular-admin-lte';
+import { Step3Component } from './components/step3/step3.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,9 @@ import { Step1Component } from './components/step1/step1.component';
     FooterComponent,
     SidebarComponent,
     DashboardComponent,
-    Step1Component
+    Step1Component,
+    Step2Component,
+    Step3Component
   ],
   imports: [
     BrowserModule,
@@ -40,6 +45,7 @@ import { Step1Component } from './components/step1/step1.component';
     AccordionModule,
     BoxInfoModule,
     BoxSmallModule,
+    DropdownModule,
     APP_ROUTING
   ],
   providers: [
