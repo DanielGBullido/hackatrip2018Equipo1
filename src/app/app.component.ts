@@ -2,6 +2,12 @@ import { Component } from '@angular/core';
 import { BbvaService } from './bbva/bbva.service';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
+import { Router, NavigationStart } from '@angular/router';
+
+
+import { adminLteConf } from '../../config/admin-lte';
+import { LayoutModule } from 'angular-admin-lte';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
