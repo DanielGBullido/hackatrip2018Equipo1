@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from "@angular/router";
+
+import { BbvaService } from '../../services/bbva/bbva.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -7,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardComponent implements OnInit {
   data: any;
-  constructor() {
+  constructor(private activatedRouted: ActivatedRoute, private _BbvaService: BbvaService) {
     this.data = {
       labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
       datasets: [
@@ -28,6 +31,11 @@ export class DashboardComponent implements OnInit {
   }
 
   ngOnInit() {
+    let params = new URLSearchParams(document.location.search.substring(1));
+    let code = params.get("code");
+    console.log(code);
   }
+
+
 
 }

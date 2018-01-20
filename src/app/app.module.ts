@@ -15,6 +15,7 @@ import { adminLteConf } from '../../config/admin-lte';
 
 import { AppComponent } from './app.component';
 import { BbvaService } from './services/bbva/bbva.service';
+import { HcService } from './services/hc/hc.service';
 
 import { LoginComponent } from './components/shared/login/login.component';
 import { LoginBankComponent } from './components/shared/login-bank/login-bank.component';
@@ -56,8 +57,10 @@ import { ChartModule } from 'primeng/chart';
   ],
   providers: [
     BbvaService,
+    HcService,
     AuthenticationService,
-    AuthGuardService],
+    AuthGuardService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

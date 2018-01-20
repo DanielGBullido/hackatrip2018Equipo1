@@ -17,7 +17,7 @@ export class LoginComponent implements OnInit {
   constructor(private auth: AuthenticationService) { }
 
   ngOnInit() {
-
+    this.auth.handleAuthentication();
     //jQuery is required to run this code
     $(document).ready(function() {
       scaleVideoContainer();
