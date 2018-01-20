@@ -13,6 +13,7 @@ export class AuthenticationService {
     const expiresAt = JSON.stringify((9999999 * 1000) + new Date().getTime());
     localStorage.setItem('access_token', '311f7efe4137efe6ab3dde3434359740');
     localStorage.setItem('expires_at', expiresAt);
+    this.handleAuthentication();
   }
 
   public handleAuthentication(): void {
