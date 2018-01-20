@@ -14,9 +14,21 @@ const app_routes: Routes = [
     component: DashboardComponent,
     canActivate: [AuthGuardService]
   },
-  { path: 'step1', component: Step1Component, canActivate: [AuthGuardService] },
-  { path: 'step2', component: Step2Component, canActivate: [AuthGuardService] },
-  { path: 'step3', component: Step3Component, canActivate: [AuthGuardService] },
+  {
+    path: 'step1',
+    component: Step1Component,
+    canActivate: [AuthGuardService]
+  },
+  {
+    path: 'step2',
+    component: Step2Component,
+    canActivate: [AuthGuardService]
+  },
+  {
+    path: 'step3',
+    component: Step3Component,
+    canActivate: [AuthGuardService]
+  },
   { path: '', pathMatch: 'full', redirectTo: 'login' },
   { path: '**', pathMatch: 'full', redirectTo: 'dashboard' }
 
