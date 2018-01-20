@@ -17,7 +17,7 @@ export class AuthenticationService {
 
   public handleAuthentication(): void {
     if (this.isAuthenticated()) {
-      this.router.navigate(['/dashboard']);
+      this.router.navigate(['/step1']);
       console.log("logued");
     } else {
       this.router.navigate(['/login']);
@@ -33,7 +33,7 @@ export class AuthenticationService {
 
   public isAuthenticated(): boolean {
     const expiresAt = JSON.parse(localStorage.getItem('expires_at'));
-    const access_token = JSON.parse(localStorage.getItem('access_token'));
+    const access_token = localStorage.getItem('access_token');
     let isAuth = new Date().getTime() < expiresAt && access_token !== null;
     return isAuth;
   }
