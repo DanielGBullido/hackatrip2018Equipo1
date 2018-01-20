@@ -10,15 +10,25 @@ import { LayoutModule } from 'angular-admin-lte';    //Loading layout module
 import { BoxModule } from 'angular-admin-lte';
 import { adminLteConf } from '../../config/admin-lte';
 
-
 import { AppComponent } from './app.component';
-import { BbvaService } from './bbva/bbva.service';
-
-
+import { BbvaService } from './services/bbva/bbva.service';
+import { AuthenticationService } from './services/auth/auth.service';
+import { LoginComponent } from './components/shared/login/login.component';
+import { LoginBankComponent } from './components/shared/login-bank/login-bank.component';
+import { HeaderComponent } from './components/shared/header/header.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
+import { SidebarComponent } from './components/shared/sidebar/sidebar.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent,
+    LoginBankComponent,
+    HeaderComponent,
+    FooterComponent,
+    SidebarComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +38,9 @@ import { BbvaService } from './bbva/bbva.service';
     HttpClientModule,
     APP_ROUTING
   ],
-  providers: [BbvaService],
+  providers: [
+    BbvaService,
+    AuthenticationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

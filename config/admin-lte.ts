@@ -1,5 +1,5 @@
 export var adminLteConf = {
-  skin: 'blue',
+  skin: 'red',
   sidebarLeftMenu: [
     { label: 'MAIN NAVIGATION', separator: true },
     { label: 'Login', route: '/', iconClasses: 'fa fa-th' },
@@ -18,5 +18,6 @@ export var adminLteConf = {
         }
       ]
     }
-  ]
+  ],
+  isSidebarRightCollapsed: false
 };
