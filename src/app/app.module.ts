@@ -22,6 +22,7 @@ import { Step1Component } from './components/step1/step1.component';
 import { Step2Component } from './components/step2/step2.component';
 import { DropdownModule } from 'angular-admin-lte';
 import { Step3Component } from './components/step3/step3.component';
+import { ChartModule } from 'primeng/chart';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import { Step3Component } from './components/step3/step3.component';
     BoxInfoModule,
     BoxSmallModule,
     DropdownModule,
+    ChartModule,
     APP_ROUTING
   ],
   providers: [

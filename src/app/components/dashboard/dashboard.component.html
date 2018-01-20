@@ -44,9 +44,22 @@
 
 <section class="content">
   <mk-accordion-group>
-    <mk-accordion header="Londres" borderColor="success">
+    <mk-accordion header="Portugal" borderColor="success">
 
-
+      <div class="col-md-6">
+        <p-chart type="line" [data]="data"></p-chart>
+      </div>
+      <div class="col-md-6">
+        <mk-box-info header="Oporto" footer="70% completado, te quedan 10 dias!" progressWidth="70" backgroundColor="green" iconStyleClass="fa fa-comments-o">
+          300€
+        </mk-box-info>
+        <mk-box-info header="Lisboa" footer="70% completado, te quedan 10 dias!" progressWidth="50" backgroundColor="yellow" iconStyleClass="fa fa-comments-o">
+          +100€
+        </mk-box-info>
+        <mk-box-info header="Faro" footer="70% completado, te quedan 10 dias!" progressWidth="15" backgroundColor="yellow" iconStyleClass="fa fa-comments-o">
+          +150€
+        </mk-box-info>
+      </div>
 
     </mk-accordion>
     <mk-accordion header="Tokio" borderColor="danger"></mk-accordion>
