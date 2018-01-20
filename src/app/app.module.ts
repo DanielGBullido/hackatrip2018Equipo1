@@ -12,6 +12,8 @@ import { adminLteConf } from '../../config/admin-lte';
 
 
 import { AppComponent } from './app.component';
+import { BbvaService } from './bbva/bbva.service';
+
 
 
 @NgModule({
@@ -20,12 +22,13 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     LayoutModule.forRoot(adminLteConf),
     FormsModule,
     HttpClientModule,
     APP_ROUTING
   ],
-  providers: [],
+  providers: [BbvaService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
