@@ -9,6 +9,17 @@
 .steps{
  text-align: center;
 }
+.steps h1{
+  font-size: 30px;
+  background: #ffffff;
+  padding: 30px;
+  color: #737373;
+  margin-bottom: 0px
+}
+.steps-content{
+  background: #f1f1f1;
+    padding: 30px;
+}
 
 .corporate-button{
 
