@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { window } from 'rxjs/operators/window';
 
 @Component({
   selector: 'app-step1',
@@ -6,10 +8,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./step1.component.css']
 })
 export class Step1Component implements OnInit {
-
-  constructor() { }
+  ciudad: string;
+  constructor(private router: Router) {
+    this.ciudad = '';
+    const ciudadLocalStorage = localStorage.getItem('cuidad');
+    if (ciudadLocalStorage) {
+      this.ciudad = ciudadLocalStorage;
+    }
+  }
 
   ngOnInit() {
+  }
+
+  go() {
+    this.router.navigate(['/step2']);
+    localStorage.setItem('cuidad', this.ciudad);
+
   }
 
 }
