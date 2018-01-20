@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 
 import { Router, NavigationStart } from '@angular/router';
 
-
 import { adminLteConf } from '../../config/admin-lte';
 import { LayoutModule } from 'angular-admin-lte';
 
