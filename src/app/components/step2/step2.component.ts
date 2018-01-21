@@ -9,11 +9,17 @@ import { Router } from '@angular/router';
 export class Step2Component implements OnInit {
   fecha: Date = new Date();
   periodo: string;
-  duracion: number;
+  const duracion: number;
   constructor(private router: Router) { }
 
   ngOnInit() {
-
+    var slider = document.getElementById("duration");
+    var output = document.getElementById("demo");
+    output.innerHTML = slider.value;
+    slider.oninput = function() {
+      output.innerHTML = slider.value;
+      localStorage.setItem('duracion', slider.value);
+    }
   }
 
   go() {

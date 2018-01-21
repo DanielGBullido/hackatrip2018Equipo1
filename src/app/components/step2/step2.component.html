@@ -60,39 +60,14 @@
     <br>
     <br>
 
+    <div class="form-group">
+      <label class="col-sm-4 control-label" for="duration">¿Cuantos dias te tocaras el ombligo?: </label>
+      <div class="col-sm-8">
+        <input type="range" min="1" max="100" value="10" class="slider" id="duration" [(ngModel)]="ciudad" placeholder="Invernalia">
+        <p><span id="demo"></span> Dias</p>
+      </div>
+    </div>
 
-    <mk-dropdown toggleText="Duración" buttonStyleClass="btn btn-success dropdown-toggle">
-      <li style="text-align: center" (click)="duracionGuardar(1)">1</li>
-      <li style="text-align: center" (click)="duracionGuardar(2)">2</li>
-      <li style="text-align: center" (click)="duracionGuardar(3)">3</li>
-      <li style="text-align: center" (click)="duracionGuardar(4)">4</li>
-      <li style="text-align: center" (click)="duracionGuardar(5)">5</li>
-      <li style="text-align: center" (click)="duracionGuardar(6)">6</li>
-      <li style="text-align: center" (click)="duracionGuardar(7)">7</li>
-      <li style="text-align: center" (click)="duracionGuardar(8)">8</li>
-      <li style="text-align: center" (click)="duracionGuardar(9)">9</li>
-      <li style="text-align: center" (click)="duracionGuardar(10)">10</li>
-      <li style="text-align: center" (click)="duracionGuardar(11)">11</li>
-      <li style="text-align: center" (click)="duracionGuardar(12)">12</li>
-      <li style="text-align: center" (click)="duracionGuardar(13)">13</li>
-      <li style="text-align: center" (click)="duracionGuardar(14)">14</li>
-      <li style="text-align: center" (click)="duracionGuardar(15)">15</li>
-      <li style="text-align: center" (click)="duracionGuardar(16)">16</li>
-      <li style="text-align: center" (click)="duracionGuardar(17)">17</li>
-      <li style="text-align: center" (click)="duracionGuardar(18)">18</li>
-      <li style="text-align: center" (click)="duracionGuardar(19)">19</li>
-      <li style="text-align: center" (click)="duracionGuardar(20)">20</li>
-      <li style="text-align: center" (click)="duracionGuardar(21)">21</li>
-      <li style="text-align: center" (click)="duracionGuardar(22)">22</li>
-      <li style="text-align: center" (click)="duracionGuardar(23)">23</li>
-      <li style="text-align: center" (click)="duracionGuardar(24)">24</li>
-      <li style="text-align: center" (click)="duracionGuardar(25)">25</li>
-      <li style="text-align: center" (click)="duracionGuardar(26)">26</li>
-      <li style="text-align: center" (click)="duracionGuardar(27)">27</li>
-      <li style="text-align: center" (click)="duracionGuardar(28)">28</li>
-      <li style="text-align: center" (click)="duracionGuardar(29)">29</li>
-      <li style="text-align: center" (click)="duracionGuardar(30)">30</li>
-    </mk-dropdown>
     <br>
     <button type="button" class="btn btn-default" (click)="go()">No queda nada!</button>
   </div>
