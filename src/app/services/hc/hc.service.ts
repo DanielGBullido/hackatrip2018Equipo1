@@ -56,9 +56,7 @@ export class HcService {
         observer.complete();
       });
     });
-    setTimeout(() => {
-      
-    }, timeout);
+
   }
 
 }
