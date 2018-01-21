@@ -20,7 +20,7 @@ export class HcService {
   }
 
   getDestination(query: string) {
-    let url = `http://sandbox.hotelscombined.com/api/2.0/hotels?destination=place:${query}&apikey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionid=testsession1&ClientIp=192.168.1.1&rooms=1&adults_1=2&checkin=2018-02-05&checkout=2018-02-15&ResponseOptions=destination%2Ctoprates%2Cimages`;
+    let url = `http://sandbox.hotelscombined.com/api/2.0/hotels?destination=place:${query}&apikey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionid=testsession1&ClientIp=192.168.1.35&rooms=1&adults_1=2&checkin=2018-02-05&checkout=2018-02-15&ResponseOptions=destination%2Ctoprates%2Cimages`;
     console.log(url);
     return this.http.request('GET', url, { headers: this.getHeaders() }).subscribe(data => {
       this.results = data;
