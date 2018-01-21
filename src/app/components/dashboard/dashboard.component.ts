@@ -9,6 +9,7 @@ import { BbvaService } from '../../services/bbva/bbva.service';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
+  userData: any;
   chartData: any;
   compras: any = 24;
   mediaAhorro: any = 1.25;
@@ -37,7 +38,7 @@ export class DashboardComponent implements OnInit {
   ngOnInit() {
     let params = new URLSearchParams(document.location.search.substring(1));
     let code = params.get("code");
-    console.log(code);
+    this.userData = this._BbvaService.getFullInfo(code);
   }
 
 }
