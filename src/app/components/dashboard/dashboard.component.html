@@ -11,7 +11,7 @@
 <section class="content">
   <div class="col-md-3 col-xs-12">
     <mk-box-small backgroundColor="blue" iconStyleClass="fa fa-shopping-cart">
-      <mk-box-small-header>24</mk-box-small-header>
+      <mk-box-small-header>{{compras}}</mk-box-small-header>
       <mk-box-small-content>Compras</mk-box-small-content>
       <mk-box-small-footer>Realizadas en el mes</mk-box-small-footer>
     </mk-box-small>
@@ -19,7 +19,7 @@
 
   <div class="col-md-3 col-xs-12">
     <mk-box-small backgroundColor="green" iconStyleClass="fa fa-eur">
-      <mk-box-small-header>1,25</mk-box-small-header>
+      <mk-box-small-header>{{mediaAhorro}}</mk-box-small-header>
       <mk-box-small-content>Media ahorro</mk-box-small-content>
       <mk-box-small-footer>En el mes actual</mk-box-small-footer>
     </mk-box-small>
@@ -27,7 +27,7 @@
 
   <div class="col-md-3 col-xs-12">
     <mk-box-small backgroundColor="yellow" iconStyleClass="fa fa-bar-chart">
-      <mk-box-small-header>68€</mk-box-small-header>
+      <mk-box-small-header>{{totalAhorro}}</mk-box-small-header>
       <mk-box-small-content>Total Ahorro</mk-box-small-content>
       <mk-box-small-footer>En el mes</mk-box-small-footer>
     </mk-box-small>
@@ -35,7 +35,7 @@
 
   <div class="col-md-3 col-xs-12">
     <mk-box-small backgroundColor="red" iconStyleClass="fa fa-pie-chart">
-      <mk-box-small-header>118</mk-box-small-header>
+      <mk-box-small-header>{{ObjetivoTotal}}</mk-box-small-header>
       <mk-box-small-content>Objetivo Total</mk-box-small-content>
       <mk-box-small-footer>Para tu viaje</mk-box-small-footer>
     </mk-box-small>
@@ -47,12 +47,14 @@
     <mk-accordion header="Portugal" borderColor="success">
 
       <div class="col-md-6">
-        <p-chart type="line" [data]="data"></p-chart>
+        <p-chart type="line" [data]="chartData"></p-chart>
       </div>
+      <label for="">Destino Principal</label>
       <div class="col-md-6">
         <mk-box-info header="Oporto" footer="70% completado, te quedan 10 dias!" progressWidth="70" backgroundColor="green" iconStyleClass="fa fa-comments-o">
           300€
         </mk-box-info>
+        <label for="">Destinos Sugeridos</label>
         <mk-box-info header="Lisboa" footer="70% completado, te quedan 10 dias!" progressWidth="50" backgroundColor="yellow" iconStyleClass="fa fa-comments-o">
           +100€
         </mk-box-info>

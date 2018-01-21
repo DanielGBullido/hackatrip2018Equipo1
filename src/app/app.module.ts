@@ -28,6 +28,7 @@ import { Step2Component } from './components/step2/step2.component';
 import { DropdownModule } from 'angular-admin-lte';
 import { Step3Component } from './components/step3/step3.component';
 import { ChartModule } from 'primeng/chart';
+import { LogoutComponent } from './components/shared/logout/logout.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { ChartModule } from 'primeng/chart';
     DashboardComponent,
     Step1Component,
     Step2Component,
-    Step3Component
+    Step3Component,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,

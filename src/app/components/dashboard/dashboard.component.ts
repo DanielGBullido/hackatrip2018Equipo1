@@ -9,9 +9,13 @@ import { BbvaService } from '../../services/bbva/bbva.service';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-  data: any;
+  chartData: any;
+  compras: any = 24;
+  mediaAhorro: any = 1.25;
+  totalAhorro: any = "68€";
+  ObjetivoTotal: any = 118;
   constructor(private activatedRouted: ActivatedRoute, private _BbvaService: BbvaService) {
-    this.data = {
+    this.chartData = {
       labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
       datasets: [
         {
@@ -35,7 +39,5 @@ export class DashboardComponent implements OnInit {
     let code = params.get("code");
     console.log(code);
   }
-
-
 
 }

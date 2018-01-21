@@ -10,6 +10,7 @@ export class HcService {
     let headers = new HttpHeaders({
       'authorization': 'Basic  YXBwLmJidmEuZXF1aXBvMTpsN0owbGFAQGY1elZMaVRJT2xGUVZ6TmpsdXBjTGF5U3ExOHluOUo3VGE3V3o4dW9aa2ROOVdubkFwUTl0Y3NP',
       'Content-Type': 'application/json',
+      'Api-User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Methods': 'GET, POST',
       'Access-Control-Allow-Headers': 'authorization',

@@ -1,5 +1,6 @@
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './components/shared/login/login.component';
+import { LogoutComponent } from './components/shared/logout/logout.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { Step1Component } from './components/step1/step1.component';
 import { Step2Component } from './components/step2/step2.component';
@@ -9,6 +10,7 @@ import { AuthGuardService } from './services/auth/auth-guard.service';
 
 const app_routes: Routes = [
   { path: 'login', component: LoginComponent },
+  { path: 'logout', component: LogoutComponent },
   {
     path: 'dashboard?code=:id',
     component: DashboardComponent,

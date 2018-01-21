@@ -2,22 +2,10 @@ export var adminLteConf = {
   skin: 'purple',
   sidebarLeftMenu: [
     { label: 'MAIN NAVIGATION', separator: true },
-    { label: 'Login', route: '/', iconClasses: 'fa fa-th' },
-    { label: 'Destino', route: '/', iconClasses: 'fa fa-th' },
-    { label: 'Fechas', route: '/', iconClasses: 'fa fa-th' },
-    { label: 'Ahorro', route: '/', iconClasses: 'fa fa-th' },
-    { label: 'LoginBanco', route: '/', iconClasses: 'fa fa-th' },
-    { label: 'Dashboard', route: '/', iconClasses: 'fa fa-th' },
-    {
-      label: 'Parent', iconClasses: 'fa fa-files-o', children: [
-        { label: 'Children', route: 'parent/children' },
-        {
-          label: 'Parent 2', children: [
-            { label: 'Children 2', route: 'parent/parent2/children2' }
-          ]
-        }
-      ]
-    }
+    { label: 'Mis Datos', route: '/', iconClasses: 'fa fa-user-o' },
+    { label: 'Añadir Ahorro', route: '/step1', iconClasses: 'fa fa-money' },
+    { label: 'Dashboard', route: '/', iconClasses: 'fa fa-area-chart' },
+    { label: 'Salir', route: '/logout', iconClasses: 'fa fa-sign-out' },
   ],
   isSidebarRightCollapsed: false
 };
