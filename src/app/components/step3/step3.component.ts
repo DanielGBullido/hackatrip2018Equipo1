@@ -16,6 +16,7 @@ export class Step3Component implements OnInit {
   duracion: any = 10;
   redondeo: any;
   periodo: any;
+  peridoSelect: any;
   dato1: any;
   dato2: any;
   dato3: any;
@@ -56,6 +57,10 @@ export class Step3Component implements OnInit {
 
   getInfoBbva(token: string) {
     const fullinfo = this.bbvaService.getFullInfo(token);
+  }
+
+  getData() {
+    localStorage.setItem('periodoSelect', this.peridoSelect);
   }
 
   calcular() {

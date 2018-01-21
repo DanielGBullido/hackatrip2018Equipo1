@@ -4,22 +4,21 @@
     <div class="radio">
       <div class="col-md-12">
         <label>
-        <input type="radio" name="optradio" value="{{dato1}}" >
+        <input type="radio" name="optradio" [value]="dato1" [(ngModel)]="peridoSelect" >
       Redondeo a {{dato1}}€ plazo aproximado de ahorro {{periodo}} meses
     </label>
       </div>
       <div class="col-md-12">
         <label>
-        <input type="radio" name="optradio" value="{{dato2}}" >
+        <input type="radio" name="optradio" [value]="dato2" [(ngModel)]="peridoSelect" >
       Redondeo a {{dato2}}€ plazo aproximado de ahorro {{periodo - 2}} meses
 
     </label>
       </div>
       <div class="col-md-12">
         <label>
-          <input type="radio" name="optradio" value="{{dato3}}" >
+          <input type="radio" name="optradio" [value]="dato3" [(ngModel)]="peridoSelect" >
         Redondeo a {{dato3}}€ plazo aproximado de ahorro {{periodo - 4}} meses
-
       </label>
       </div>
       <br>
@@ -29,6 +28,6 @@
 
 
 
-    <a class="btn btn-default">Ahora empieza lo bueno!</a>
+    <a class="btn btn-default" (click)="getData()" [routerLink]="['dashboard']">Ahora empieza lo bueno!</a>
   </div>
 </div>
