@@ -3,7 +3,7 @@ const PROXY_CONFIG = [
         context: [
             "*",
         ],
-        target: "http://localhost:4200",
+        target: "http://equipo1.dev:4200",
         secure: false
     }
 ]

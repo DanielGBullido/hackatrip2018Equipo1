@@ -12,6 +12,12 @@ import { HcService } from '../../services/hc/hc.service';
 export class Step1Component implements OnInit {
   ciudad: string;
   results: any;
+
+
+  direcciones: Array<any> = [];
+  listFiltradaDirecciones: Array<any> = [];
+  listDireccionesInit: Array<any> = [];
+
   constructor(private router: Router, public hc: HcService) {
     this.ciudad = '';
     const ciudadLocalStorage = localStorage.getItem('cuidad');
@@ -21,6 +27,17 @@ export class Step1Component implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+
+  filterDirecciones(event) {
+    this.listFiltradaDirecciones = [];
+
+    this.listDireccionesInit.filter((item) => {
+      if (item.toUpperCase().indexOf(event.query.toUpperCase()) === 0) {
+        this.listFiltradaDirecciones.push(item);
+      }
+    });
   }
 
   search($event) {

@@ -9,6 +9,7 @@ import { APP_ROUTING } from './app.routes';
 /*****SERVICES******/
 import { AuthenticationService } from './services/auth/auth.service';
 import { AuthGuardService } from './services/auth/auth-guard.service';
+import { InterceptorService } from './services/auth/interceptor.service';
 
 import { LayoutModule, AccordionModule, BoxInfoModule, BoxSmallModule, BoxModule } from 'angular-admin-lte';
 import { adminLteConf } from '../../config/admin-lte';
@@ -30,6 +31,7 @@ import { DropdownModule } from 'angular-admin-lte';
 import { Step3Component } from './components/step3/step3.component';
 import { ChartModule } from 'primeng/chart';
 import { LogoutComponent } from './components/shared/logout/logout.component';
+import { AutoCompleteModule } from "primeng/primeng";
 
 @NgModule({
   declarations: [
@@ -50,6 +52,7 @@ import { LogoutComponent } from './components/shared/logout/logout.component';
     HttpClientModule,
     LayoutModule.forRoot(adminLteConf),
     FormsModule,
+    AutoCompleteModule,
     AccordionModule,
     BoxInfoModule,
     BoxSmallModule,
@@ -62,7 +65,12 @@ import { LogoutComponent } from './components/shared/logout/logout.component';
     HcService,
     AuthenticationService,
     AuthGuardService,
-    MinubeService
+    MinubeService,
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: InterceptorService,
+      multi: true
+    },
   ],
   bootstrap: [AppComponent]
 })

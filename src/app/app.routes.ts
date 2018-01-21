@@ -12,29 +12,24 @@ const app_routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'logout', component: LogoutComponent },
   {
-    path: 'dashboard?code=:id',
-    component: DashboardComponent,
-    canActivate: [AuthGuardService]
-  },
-  {
     path: 'dashboard',
     component: DashboardComponent,
-    canActivate: [AuthGuardService]
+    //canActivate: [AuthGuardService]
   },
   {
     path: 'step1',
     component: Step1Component,
-    canActivate: [AuthGuardService]
+    //canActivate: [AuthGuardService]
   },
   {
     path: 'step2',
     component: Step2Component,
-    canActivate: [AuthGuardService]
+    //canActivate: [AuthGuardService]
   },
   {
     path: 'step3',
     component: Step3Component,
-    canActivate: [AuthGuardService]
+    //canActivate: [AuthGuardService]
   },
   { path: '', pathMatch: 'full', redirectTo: 'login' },
   { path: '**', pathMatch: 'full', redirectTo: 'dashboard' }
