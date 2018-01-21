@@ -27,7 +27,6 @@ export class MinubeService {
     return headers;
   }
 
-
   getZones(): Observable<any> {
     return new Observable(observer => {
       if (this.results) {

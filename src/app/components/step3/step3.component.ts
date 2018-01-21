@@ -10,7 +10,7 @@ import { HcService } from '../../services/hc/hc.service';
 })
 export class Step3Component implements OnInit {
   ahorroInput = 0;
-  ahorro: number = 1000;
+  ahorro: number = 965;
   cantidadparaahorrar: any;
   movimientos: any = 31;
   display = false;
@@ -21,7 +21,7 @@ export class Step3Component implements OnInit {
   dato1: any;
   dato2: any;
   dato3: any;
-  constructor(private router: Router,  protected bbvaService: BbvaService, protected hcService: HcService) {
+  constructor(private router: Router, protected bbvaService: BbvaService, protected hcService: HcService) {
     //media precio hotel
     router.events.subscribe(
       event => {
@@ -38,14 +38,15 @@ export class Step3Component implements OnInit {
   }
 
   ngOnInit() {
-// console.log('route', this.route);
-console.log('router', this.router);
-this.getInfoBbva(localStorage.getItem('token'));
-this.getDestination(localStorage.getItem('ciudad'));
+    // console.log('route', this.route);
+    console.log('router', this.router);
+    this.getInfoBbva(localStorage.getItem('token'));
+    this.getDestination(localStorage.getItem('ciudad'));
     // console.log('route', this.route);
     console.log('router', this.router);
     this.duracion = localStorage.getItem('duracion');
     this.periodo = localStorage.getItem('periodo');
+    this.movimientos = localStorage.getItem('numeroTrans') != "" ? 30 : localStorage.getItem('numeroTrans');
 
     this.cantidadparaahorrar = this.ahorro / this.periodo;
     this.dato1 = Math.floor(this.cantidadparaahorrar / this.movimientos);
@@ -64,8 +65,8 @@ this.getDestination(localStorage.getItem('ciudad'));
     console.log('infobbva: ', fullinfo);
   }
   getDestination(destination: string) {
-    let destinatios ='';
-     this.hcService.getDestination('Porto').subscribe(data => {
+    let destinatios = '';
+    this.hcService.getDestination('Porto').subscribe(data => {
       destinatios = data;
     });
     console.log('infoDestino: ', destinatios);
