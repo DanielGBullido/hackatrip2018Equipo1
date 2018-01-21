@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, Route } from '@angular/router';
+import { BbvaService } from '../../services/bbva/bbva.service';
 
 @Component({
   selector: 'app-step3',
@@ -10,17 +11,20 @@ export class Step3Component implements OnInit {
   ahorroInput = 0;
   ahorro: number;
   display = false;
-  constructor(private router: Router) { }
+  constructor(private router: Router,  protected bbvaService: BbvaService) { }
 
   ngOnInit() {
+// console.log('route', this.route);
+console.log('router', this.router);
+  }
+
+  getInfoBbva() {
+    this.bbvaService.getFullInfo(localStorage.getItem('token'));
   }
 
   calcular() {
     this.router.navigateByUrl(
       'https://connect.bbva.com/token/authorize?client_id=app.bbva.equipo1&response_type=code&redirect_uri=http://localhost:4200/dashboard');
-  //   window.open(
-  //     'https://connect.bbva.com/token/authorize?client_id=app.bbva.equipo1&response_type=code&redirect_uri=http://localhost:4200/dashboard');
-  // }
-  // 
+
 }
 }

@@ -19,7 +19,9 @@ export class Step2Component implements OnInit {
   go() {
     localStorage.setItem('fecha', this.fecha.toString());
     localStorage.setItem('fecha', this.periodo);
-    this.router.navigate(['/step3']);
+    // this.router.navigateByUrl(
+    //   'https://connect.bbva.com/token/authorize?client_id=app.bbva.equipo1&response_type=code&redirect_uri=http://localhost:4200/step3');
+    // this.router.navigate(['/step3']);
   }
 
   duracionGuardar(value) {
