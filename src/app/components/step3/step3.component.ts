@@ -41,7 +41,11 @@ export class Step3Component implements OnInit {
     // console.log('route', this.route);
     console.log('router', this.router);
     this.getInfoBbva(localStorage.getItem('token'));
+<<<<<<< HEAD
     this.getDestination(localStorage.getItem('ciudad'));
+=======
+    // this.getDestination(localStorage.getItem('ciudad'));
+>>>>>>> f6aeab94d82ee459492d378409ed047a45bb07f7
     // console.log('route', this.route);
     console.log('router', this.router);
     this.duracion = localStorage.getItem('duracion');
