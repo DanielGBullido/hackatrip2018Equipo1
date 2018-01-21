@@ -9,7 +9,6 @@ import { Router } from '@angular/router';
 export class Step2Component implements OnInit {
   fecha: Date = new Date();
   periodo: string;
-  const duracion: number;
   constructor(private router: Router) { }
 
   ngOnInit() {

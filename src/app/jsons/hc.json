@@ -1,0 +1,6254 @@
+{
+  "isComplete": true,
+  "searchTime": 56,
+  "totalResults": 1968,
+  "totalAvailableResults": 1123,
+  "totalFilteredResults": 1123,
+  "currencyCode": "EUR",
+  "languageCode": "EN",
+  "lowestTotalRate": 73.0,
+  "highestTotalRate": 479.0,
+  "postFilterLowestTotalRate": 73.0,
+  "postFilterHighestTotalRate": 479.0,
+  "providers": [
+    {
+      "code": "SKH",
+      "name": "skoosh.com",
+      "logo": "/images/providers/logos/SKH.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": true
+    },
+    {
+      "code": "HOA",
+      "name": "Hotelopia.es",
+      "logo": "/images/providers/logos/HOA.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": true
+    },
+    {
+      "code": "ZHT",
+      "name": "ZenHotels.com",
+      "logo": "/images/providers/logos/ZHT.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": true
+    },
+    {
+      "code": "PRS",
+      "name": "Prestigia.com",
+      "logo": "/images/providers/logos/PRS.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": true
+    },
+    {
+      "code": "IAN",
+      "name": "Hotels.com",
+      "logo": "/images/providers/logos/IAN-Other.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": true
+    },
+    {
+      "code": "OLO",
+      "name": "Amoma.com",
+      "logo": "/images/providers/logos/OLO.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": true
+    },
+    {
+      "code": "BOO",
+      "name": "Book with hotel",
+      "logo": null,
+      "isDirect": true,
+      "isLanguageSupported": true
+    },
+    {
+      "code": "HDE",
+      "name": "Hotel.info",
+      "logo": "/images/providers/logos/HDE.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": true
+    },
+    {
+      "code": "HUS",
+      "name": "hotusa.com",
+      "logo": "/images/providers/logos/HUS.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": true
+    },
+    {
+      "code": "HTS",
+      "name": "www.hotelius.co.uk",
+      "logo": "/images/providers/logos/HTS.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": true
+    },
+    {
+      "code": "EXP",
+      "name": "Expedia.es",
+      "logo": "/images/providers/logos/EXP-ES.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": false
+    },
+    {
+      "code": "ECT",
+      "name": "EasyClickTravel.com",
+      "logo": "/images/providers/logos/ECT.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": true
+    },
+    {
+      "code": "RTG",
+      "name": "RatesToGo.com",
+      "logo": "/images/providers/logos/RTG.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": true
+    },
+    {
+      "code": "VVS",
+      "name": "vivastay.com",
+      "logo": "/images/providers/logos/VVS.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": true
+    },
+    {
+      "code": "OHT",
+      "name": "Onhotels.com",
+      "logo": "/images/providers/logos/OHT.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": false
+    },
+    {
+      "code": "SBK",
+      "name": "Superbreak.com",
+      "logo": "/images/providers/logos/SBK.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": false
+    },
+    {
+      "code": "GAR",
+      "name": "getaroom.com",
+      "logo": "/images/providers/logos/GAR.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": false
+    },
+    {
+      "code": "CTE",
+      "name": "Trip.com",
+      "logo": "/images/providers/logos/CTE.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": true
+    },
+    {
+      "code": "ACC",
+      "name": "AccorHotels.com",
+      "logo": "/images/providers/logos/ACC-MER.png?cdn=636521508019207053",
+      "isDirect": true,
+      "isLanguageSupported": true
+    },
+    {
+      "code": "GST",
+      "name": "GetSnapTravel.com",
+      "logo": "/images/providers/logos/GST.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": true
+    },
+    {
+      "code": "HRS",
+      "name": "hrs.com",
+      "logo": "/images/providers/logos/HRS.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": true
+    },
+    {
+      "code": "AHO",
+      "name": "AccorHotels.com",
+      "logo": "/images/providers/logos/AHO.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": true
+    },
+    {
+      "code": "ELV",
+      "name": "Elvoline.com",
+      "logo": "/images/providers/logos/ELV.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": true
+    },
+    {
+      "code": "LRM",
+      "name": "LateRooms.com",
+      "logo": "/images/providers/logos/LRM.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": true
+    },
+    {
+      "code": "HPO",
+      "name": "Hotelpronto.com",
+      "logo": "/images/providers/logos/HPO.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": true
+    },
+    {
+      "code": "OTE",
+      "name": "Otel.com",
+      "logo": "/images/providers/logos/OTE.png?cdn=636521508019207053",
+      "isDirect": false,
+      "isLanguageSupported": true
+    }
+  ],
+  "results": [
+    {
+      "id": 1123609,
+      "key": "hotel:HF_Ipanema_Park",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:HF_Ipanema_Park",
+      "name": "HF Ipanema Park",
+      "address": "Rua de Serralves, 124",
+      "latitude": 41.15444,
+      "longitude": -8.649802,
+      "distance": 3742,
+      "isWithinBoundary": true,
+      "starRating": 5,
+      "isSelfRated": false,
+      "lowestRate": 77.0,
+      "highestRate": 191.0,
+      "isGreatValue": true,
+      "numberOfProviders": 19,
+      "numberOfRates": 19,
+      "imageSprite": "https://edge.media.datahc.com/Z1123609.jpg?v=-1903014585",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI162520145.jpg",
+          "small": "https://edge.media.datahc.com/HP162520145.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520144.jpg",
+          "small": "https://edge.media.datahc.com/HP162520144.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520140.jpg",
+          "small": "https://edge.media.datahc.com/HP162520140.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520141.jpg",
+          "small": "https://edge.media.datahc.com/HP162520141.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI358684122.jpg",
+          "small": "https://edge.media.datahc.com/HP358684122.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI358684121.jpg",
+          "small": "https://edge.media.datahc.com/HP358684121.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI358684120.jpg",
+          "small": "https://edge.media.datahc.com/HP358684120.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI358684133.jpg",
+          "small": "https://edge.media.datahc.com/HP358684133.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520143.jpg",
+          "small": "https://edge.media.datahc.com/HP162520143.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520146.jpg",
+          "small": "https://edge.media.datahc.com/HP162520146.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520136.jpg",
+          "small": "https://edge.media.datahc.com/HP162520136.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520148.jpg",
+          "small": "https://edge.media.datahc.com/HP162520148.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520139.jpg",
+          "small": "https://edge.media.datahc.com/HP162520139.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 86.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 0,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.3218906.-263714604.7.EUR.1355562470&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 95.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 1,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.3047390.-263714610.24.EUR.1846484139&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 85.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 2,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.40011149.-263714631.13.EUR.1335924090&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 86.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 3,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.38307569.-263714621.7.EUR.528204049&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 191.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 4,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.17784600.-263714667.64.EUR.109754398&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 1789280,
+      "key": "hotel:Moov_Hotel_Porto_Centro",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:Moov_Hotel_Porto_Centro",
+      "name": "Moov Hotel Porto Centro",
+      "address": "Praça da Batalha nº. 32/34",
+      "latitude": 41.1457601,
+      "longitude": -8.6067168,
+      "distance": 765,
+      "isWithinBoundary": true,
+      "starRating": 2,
+      "isSelfRated": false,
+      "lowestRate": 86.0,
+      "highestRate": 151.0,
+      "isGreatValue": true,
+      "numberOfProviders": 2,
+      "numberOfRates": 2,
+      "imageSprite": "https://edge.media.datahc.com/Z1789280.jpg?v=1299378889",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI297884517.jpg",
+          "small": "https://edge.media.datahc.com/HP297884517.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI297884518.jpg",
+          "small": "https://edge.media.datahc.com/HP297884518.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI297884519.jpg",
+          "small": "https://edge.media.datahc.com/HP297884519.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI297884520.jpg",
+          "small": "https://edge.media.datahc.com/HP297884520.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI297884521.jpg",
+          "small": "https://edge.media.datahc.com/HP297884521.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI297884522.jpg",
+          "small": "https://edge.media.datahc.com/HP297884522.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI297884523.jpg",
+          "small": "https://edge.media.datahc.com/HP297884523.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI297884524.jpg",
+          "small": "https://edge.media.datahc.com/HP297884524.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI297884525.jpg",
+          "small": "https://edge.media.datahc.com/HP297884525.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI297884526.jpg",
+          "small": "https://edge.media.datahc.com/HP297884526.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI297884527.jpg",
+          "small": "https://edge.media.datahc.com/HP297884527.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI297884528.jpg",
+          "small": "https://edge.media.datahc.com/HP297884528.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI297884529.jpg",
+          "small": "https://edge.media.datahc.com/HP297884529.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 86.0,
+          "isCheapestRate": true,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 2,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.45793111.-263714645.7.EUR.2064325463&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 151.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            3
+          ],
+          "availableRooms": null,
+          "providerIndex": 5,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.11005051.-263714627.85.EUR.530586053&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 3234112,
+      "key": "hotel:Eurostars_Porto_Centro",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:Eurostars_Porto_Centro",
+      "name": "Eurostars Porto Centro",
+      "address": "Rua Sampaio Bruno Nº 77",
+      "latitude": 41.146764,
+      "longitude": -8.609899,
+      "distance": 455,
+      "isWithinBoundary": true,
+      "starRating": 4,
+      "isSelfRated": false,
+      "lowestRate": 73.0,
+      "highestRate": 391.0,
+      "isGreatValue": true,
+      "numberOfProviders": 7,
+      "numberOfRates": 7,
+      "imageSprite": "https://edge.media.datahc.com/Z3234112.jpg?v=-1221589050",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI398143550.jpg",
+          "small": "https://edge.media.datahc.com/HP398143550.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI398143551.jpg",
+          "small": "https://edge.media.datahc.com/HP398143551.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI398143552.jpg",
+          "small": "https://edge.media.datahc.com/HP398143552.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI398143553.jpg",
+          "small": "https://edge.media.datahc.com/HP398143553.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI398143554.jpg",
+          "small": "https://edge.media.datahc.com/HP398143554.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI398143555.jpg",
+          "small": "https://edge.media.datahc.com/HP398143555.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI398143556.jpg",
+          "small": "https://edge.media.datahc.com/HP398143556.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI398143557.jpg",
+          "small": "https://edge.media.datahc.com/HP398143557.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI398143558.jpg",
+          "small": "https://edge.media.datahc.com/HP398143558.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI398143559.jpg",
+          "small": "https://edge.media.datahc.com/HP398143559.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI398143560.jpg",
+          "small": "https://edge.media.datahc.com/HP398143560.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI398143561.jpg",
+          "small": "https://edge.media.datahc.com/HP398143561.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI398143562.jpg",
+          "small": "https://edge.media.datahc.com/HP398143562.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 76.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0
+          ],
+          "availableRooms": null,
+          "providerIndex": 6,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.45537040.-263714654.1.EUR.291693918&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 84.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 7,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.47103297.-263714619.11.EUR.47948507&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 73.0,
+          "isCheapestRate": true,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 8,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.42849431.-263714614.0.EUR.2040313640&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 146.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 9,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.42849585.-263714622.61.EUR.475932470&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 391.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            3
+          ],
+          "availableRooms": null,
+          "providerIndex": 10,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.45507176.-263714637.174.EUR.1269170317&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 1622826,
+      "key": "hotel:Hotel_Cristal_Porto",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:Hotel_Cristal_Porto",
+      "name": "Hotel Cristal Porto",
+      "address": "Travessa Antero De Quental, 360",
+      "latitude": 41.1607248,
+      "longitude": -8.6112681,
+      "distance": 1321,
+      "isWithinBoundary": true,
+      "starRating": 4,
+      "isSelfRated": false,
+      "lowestRate": 76.0,
+      "highestRate": 400.0,
+      "isGreatValue": true,
+      "numberOfProviders": 16,
+      "numberOfRates": 18,
+      "imageSprite": "https://edge.media.datahc.com/Z1622826.jpg?v=-1642945089",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI406518325.jpg",
+          "small": "https://edge.media.datahc.com/HP406518325.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI501676578.jpg",
+          "small": "https://edge.media.datahc.com/HP501676578.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI406518326.jpg",
+          "small": "https://edge.media.datahc.com/HP406518326.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI406518341.jpg",
+          "small": "https://edge.media.datahc.com/HP406518341.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI406518327.jpg",
+          "small": "https://edge.media.datahc.com/HP406518327.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI406518328.jpg",
+          "small": "https://edge.media.datahc.com/HP406518328.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI406518329.jpg",
+          "small": "https://edge.media.datahc.com/HP406518329.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI406518330.jpg",
+          "small": "https://edge.media.datahc.com/HP406518330.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI406518331.jpg",
+          "small": "https://edge.media.datahc.com/HP406518331.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI406518333.jpg",
+          "small": "https://edge.media.datahc.com/HP406518333.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI406518335.jpg",
+          "small": "https://edge.media.datahc.com/HP406518335.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI406518336.jpg",
+          "small": "https://edge.media.datahc.com/HP406518336.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI406518337.jpg",
+          "small": "https://edge.media.datahc.com/HP406518337.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 76.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0
+          ],
+          "availableRooms": null,
+          "providerIndex": 1,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.36600606.-263714606.1.EUR.1276893548&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 76.0,
+          "isCheapestRate": true,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 11,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.23326210.-263714602.2.EUR.1992328671&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 89.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            4
+          ],
+          "availableRooms": null,
+          "providerIndex": 12,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.26178200.-263714647.17.EUR.1740929003&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 93.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 13,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.13951870.-263714632.10.EUR.427139302&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 400.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0
+          ],
+          "availableRooms": null,
+          "providerIndex": 4,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.38249897.-263714667.180.EUR.300852564&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 1207760,
+      "key": "hotel:Eurostars_Das_Artes",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:Eurostars_Das_Artes",
+      "name": "Eurostars Das Artes",
+      "address": "Rua Do Rosario 160",
+      "latitude": 41.149993,
+      "longitude": -8.620932,
+      "distance": 1118,
+      "isWithinBoundary": true,
+      "starRating": 4,
+      "isSelfRated": false,
+      "lowestRate": 73.0,
+      "highestRate": 289.0,
+      "isGreatValue": true,
+      "numberOfProviders": 20,
+      "numberOfRates": 20,
+      "imageSprite": "https://edge.media.datahc.com/Z1207760.jpg?v=-1814769479",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI379815677.jpg",
+          "small": "https://edge.media.datahc.com/HP379815677.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI379815684.jpg",
+          "small": "https://edge.media.datahc.com/HP379815684.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI379815688.jpg",
+          "small": "https://edge.media.datahc.com/HP379815688.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI379818455.jpg",
+          "small": "https://edge.media.datahc.com/HP379818455.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI379818456.jpg",
+          "small": "https://edge.media.datahc.com/HP379818456.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI379818457.jpg",
+          "small": "https://edge.media.datahc.com/HP379818457.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI379818458.jpg",
+          "small": "https://edge.media.datahc.com/HP379818458.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI379818459.jpg",
+          "small": "https://edge.media.datahc.com/HP379818459.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI379818460.jpg",
+          "small": "https://edge.media.datahc.com/HP379818460.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI379818461.jpg",
+          "small": "https://edge.media.datahc.com/HP379818461.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI379818462.jpg",
+          "small": "https://edge.media.datahc.com/HP379818462.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI379818463.jpg",
+          "small": "https://edge.media.datahc.com/HP379818463.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI379815741.jpg",
+          "small": "https://edge.media.datahc.com/HP379815741.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 76.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 6,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.44890505.-263714654.2.EUR.1372409646&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 89.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            4
+          ],
+          "availableRooms": null,
+          "providerIndex": 0,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.4140645.-263714604.17.EUR.1595238316&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 80.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 2,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.40011090.-263714636.8.EUR.820936152&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 84.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 4,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.13482637.-263714667.11.EUR.1935451291&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 289.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 10,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.13624796.-263714637.118.EUR.2066256254&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 1123606,
+      "key": "hotel:Vila_Gale_Porto",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:Vila_Gale_Porto",
+      "name": "Vila Gale Porto",
+      "address": "Avenida Fernão Magalhaes 7",
+      "latitude": 41.1505,
+      "longitude": -8.598202,
+      "distance": 1261,
+      "isWithinBoundary": true,
+      "starRating": 4,
+      "isSelfRated": false,
+      "lowestRate": 76.0,
+      "highestRate": 279.0,
+      "isGreatValue": true,
+      "numberOfProviders": 17,
+      "numberOfRates": 18,
+      "imageSprite": "https://edge.media.datahc.com/Z1123606.jpg?v=-543600606",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI265896917.jpg",
+          "small": "https://edge.media.datahc.com/HP265896917.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271142272.jpg",
+          "small": "https://edge.media.datahc.com/HP271142272.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271142269.jpg",
+          "small": "https://edge.media.datahc.com/HP271142269.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271142271.jpg",
+          "small": "https://edge.media.datahc.com/HP271142271.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI265896919.jpg",
+          "small": "https://edge.media.datahc.com/HP265896919.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271142279.jpg",
+          "small": "https://edge.media.datahc.com/HP271142279.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI265896913.jpg",
+          "small": "https://edge.media.datahc.com/HP265896913.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI265896912.jpg",
+          "small": "https://edge.media.datahc.com/HP265896912.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271142280.jpg",
+          "small": "https://edge.media.datahc.com/HP271142280.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271142278.jpg",
+          "small": "https://edge.media.datahc.com/HP271142278.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271142277.jpg",
+          "small": "https://edge.media.datahc.com/HP271142277.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271142273.jpg",
+          "small": "https://edge.media.datahc.com/HP271142273.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271142268.jpg",
+          "small": "https://edge.media.datahc.com/HP271142268.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 86.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 6,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.33740003.-263714654.7.EUR.1105665432&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 79.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 4,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.13482626.-263714667.6.EUR.1980329525&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 76.0,
+          "isCheapestRate": true,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 14,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.6573692.-263714635.2.EUR.6515718&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 76.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0
+          ],
+          "availableRooms": null,
+          "providerIndex": 15,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.16768770.-263714649.1.EUR.400950848&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 279.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 10,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.13624790.-263714637.113.EUR.1710914239&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 2751162,
+      "key": "hotel:Eurostars_Heroismo",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:Eurostars_Heroismo",
+      "name": "Eurostars Heroismo",
+      "address": "Rua Do Heroismo 235/237",
+      "latitude": 41.1463301,
+      "longitude": -8.5933391,
+      "distance": 1675,
+      "isWithinBoundary": true,
+      "starRating": 4,
+      "isSelfRated": false,
+      "lowestRate": 73.0,
+      "highestRate": 269.0,
+      "isGreatValue": true,
+      "numberOfProviders": 13,
+      "numberOfRates": 14,
+      "imageSprite": "https://edge.media.datahc.com/Z2751162.jpg?v=212554826",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI372223430.jpg",
+          "small": "https://edge.media.datahc.com/HP372223430.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI372223433.jpg",
+          "small": "https://edge.media.datahc.com/HP372223433.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI372223434.jpg",
+          "small": "https://edge.media.datahc.com/HP372223434.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI372223435.jpg",
+          "small": "https://edge.media.datahc.com/HP372223435.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI372223436.jpg",
+          "small": "https://edge.media.datahc.com/HP372223436.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI379815350.jpg",
+          "small": "https://edge.media.datahc.com/HP379815350.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI372223437.jpg",
+          "small": "https://edge.media.datahc.com/HP372223437.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI372223438.jpg",
+          "small": "https://edge.media.datahc.com/HP372223438.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI379815351.jpg",
+          "small": "https://edge.media.datahc.com/HP379815351.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI372223439.jpg",
+          "small": "https://edge.media.datahc.com/HP372223439.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI372223440.jpg",
+          "small": "https://edge.media.datahc.com/HP372223440.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI372223441.jpg",
+          "small": "https://edge.media.datahc.com/HP372223441.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI372223442.jpg",
+          "small": "https://edge.media.datahc.com/HP372223442.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 83.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 6,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.45172349.-263714654.5.EUR.1733325649&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 80.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 5,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.38423901.-263714627.3.EUR.1277041936&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 87.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 7,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.29841739.-263714638.15.EUR.175963874&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 73.0,
+          "isCheapestRate": true,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 16,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.43616330.-263714618.0.EUR.1112993909&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 269.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 4,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.29718380.-263714667.108.EUR.1095010744&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 2982759,
+      "key": "hotel:Eurostars_Porto_Douro",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:Eurostars_Porto_Douro",
+      "name": "Eurostars Porto Douro",
+      "address": "Avenida Gustavo Eiffel 6-14",
+      "latitude": 41.1415772,
+      "longitude": -8.6063539,
+      "distance": 1529,
+      "isWithinBoundary": true,
+      "starRating": 4,
+      "isSelfRated": false,
+      "lowestRate": 73.0,
+      "highestRate": 328.0,
+      "isGreatValue": true,
+      "numberOfProviders": 7,
+      "numberOfRates": 7,
+      "imageSprite": "https://edge.media.datahc.com/Z2982759.jpg?v=579761638",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI371204780.jpg",
+          "small": "https://edge.media.datahc.com/HP371204780.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI371204781.jpg",
+          "small": "https://edge.media.datahc.com/HP371204781.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI371204782.jpg",
+          "small": "https://edge.media.datahc.com/HP371204782.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI371204783.jpg",
+          "small": "https://edge.media.datahc.com/HP371204783.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI371204786.jpg",
+          "small": "https://edge.media.datahc.com/HP371204786.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI371204787.jpg",
+          "small": "https://edge.media.datahc.com/HP371204787.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI371204788.jpg",
+          "small": "https://edge.media.datahc.com/HP371204788.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI371618412.jpg",
+          "small": "https://edge.media.datahc.com/HP371618412.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI371618413.jpg",
+          "small": "https://edge.media.datahc.com/HP371618413.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI371618414.jpg",
+          "small": "https://edge.media.datahc.com/HP371618414.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI378220968.jpg",
+          "small": "https://edge.media.datahc.com/HP378220968.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI371618415.jpg",
+          "small": "https://edge.media.datahc.com/HP371618415.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI371618416.jpg",
+          "small": "https://edge.media.datahc.com/HP371618416.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 80.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 6,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.44890506.-263714654.3.EUR.720199198&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 73.0,
+          "isCheapestRate": true,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 1,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.35604932.-263714606.0.EUR.1096262214&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 77.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            3
+          ],
+          "availableRooms": null,
+          "providerIndex": 16,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.43616361.-263714618.4.EUR.1618725105&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 80.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 8,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.34396881.-263714614.3.EUR.545236606&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 328.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 10,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.35512123.-263714637.140.EUR.12861739&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 1979685,
+      "key": "hotel:So_Cool_Hostel",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:So_Cool_Hostel",
+      "name": "So Cool Hostel",
+      "address": "Rua Da Boavista, 783",
+      "latitude": 41.1567424,
+      "longitude": -8.6225402,
+      "distance": 1581,
+      "isWithinBoundary": true,
+      "starRating": 3,
+      "isSelfRated": false,
+      "lowestRate": 85.0,
+      "highestRate": 233.0,
+      "isGreatValue": true,
+      "numberOfProviders": 4,
+      "numberOfRates": 4,
+      "imageSprite": "https://edge.media.datahc.com/Z1979685.jpg?v=589938398",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI162550043.jpg",
+          "small": "https://edge.media.datahc.com/HP162550043.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162550044.jpg",
+          "small": "https://edge.media.datahc.com/HP162550044.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162550047.jpg",
+          "small": "https://edge.media.datahc.com/HP162550047.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162550046.jpg",
+          "small": "https://edge.media.datahc.com/HP162550046.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162550045.jpg",
+          "small": "https://edge.media.datahc.com/HP162550045.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162550055.jpg",
+          "small": "https://edge.media.datahc.com/HP162550055.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162550050.jpg",
+          "small": "https://edge.media.datahc.com/HP162550050.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162550049.jpg",
+          "small": "https://edge.media.datahc.com/HP162550049.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162550051.jpg",
+          "small": "https://edge.media.datahc.com/HP162550051.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162550052.jpg",
+          "small": "https://edge.media.datahc.com/HP162550052.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI337963036.jpg",
+          "small": "https://edge.media.datahc.com/HP337963036.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI337963038.jpg",
+          "small": "https://edge.media.datahc.com/HP337963038.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI337963037.jpg",
+          "small": "https://edge.media.datahc.com/HP337963037.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 85.0,
+          "isCheapestRate": true,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 6,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.18149995.-263714654.13.EUR.552381207&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 94.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 2,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.40010948.-263714652.22.EUR.203583031&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 135.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0
+          ],
+          "availableRooms": null,
+          "providerIndex": 10,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.25574175.-263714637.34.EUR.523414061&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 233.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 4,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.25581097.-263714667.88.EUR.1579694588&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 1207754,
+      "key": "hotel:HF_Fenix_Porto",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:HF_Fenix_Porto",
+      "name": "HF Fenix Porto",
+      "address": "Rua Goncalo Sampaio, 282",
+      "latitude": 41.154722,
+      "longitude": -8.630556,
+      "distance": 2256,
+      "isWithinBoundary": true,
+      "starRating": 4,
+      "isSelfRated": false,
+      "lowestRate": 76.0,
+      "highestRate": 197.0,
+      "isGreatValue": true,
+      "numberOfProviders": 19,
+      "numberOfRates": 19,
+      "imageSprite": "https://edge.media.datahc.com/Z1207754.jpg?v=642469921",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI162520232.jpg",
+          "small": "https://edge.media.datahc.com/HP162520232.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520231.jpg",
+          "small": "https://edge.media.datahc.com/HP162520231.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520230.jpg",
+          "small": "https://edge.media.datahc.com/HP162520230.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520233.jpg",
+          "small": "https://edge.media.datahc.com/HP162520233.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520234.jpg",
+          "small": "https://edge.media.datahc.com/HP162520234.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520252.jpg",
+          "small": "https://edge.media.datahc.com/HP162520252.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520239.jpg",
+          "small": "https://edge.media.datahc.com/HP162520239.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520238.jpg",
+          "small": "https://edge.media.datahc.com/HP162520238.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520240.jpg",
+          "small": "https://edge.media.datahc.com/HP162520240.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520237.jpg",
+          "small": "https://edge.media.datahc.com/HP162520237.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520236.jpg",
+          "small": "https://edge.media.datahc.com/HP162520236.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520235.jpg",
+          "small": "https://edge.media.datahc.com/HP162520235.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520244.jpg",
+          "small": "https://edge.media.datahc.com/HP162520244.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 76.0,
+          "isCheapestRate": true,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0
+          ],
+          "availableRooms": null,
+          "providerIndex": 17,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.48857785.-263714629.1.EUR.918429592&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 79.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 0,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.3218903.-263714604.6.EUR.39778632&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 85.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 1,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.3047374.-263714610.13.EUR.1813422135&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 77.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            3
+          ],
+          "availableRooms": null,
+          "providerIndex": 7,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.46927559.-263714619.4.EUR.913007429&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 197.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 4,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.17784604.-263714667.68.EUR.933805766&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 1437174,
+      "key": "hotel:Mercure_Porto_Centro_Hotel",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:Mercure_Porto_Centro_Hotel",
+      "name": "Mercure Porto Centro Hotel",
+      "address": "Praca Da Batalha 116",
+      "latitude": 41.145367,
+      "longitude": -8.607568,
+      "distance": 824,
+      "isWithinBoundary": true,
+      "starRating": 4,
+      "isSelfRated": false,
+      "lowestRate": 73.0,
+      "highestRate": 188.0,
+      "isGreatValue": true,
+      "numberOfProviders": 16,
+      "numberOfRates": 16,
+      "imageSprite": "https://edge.media.datahc.com/Z1437174.jpg?v=93968786",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI371586887.jpg",
+          "small": "https://edge.media.datahc.com/HP371586887.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI368064751.jpg",
+          "small": "https://edge.media.datahc.com/HP368064751.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI368064774.jpg",
+          "small": "https://edge.media.datahc.com/HP368064774.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI345025693.jpg",
+          "small": "https://edge.media.datahc.com/HP345025693.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI368064757.jpg",
+          "small": "https://edge.media.datahc.com/HP368064757.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI368064750.jpg",
+          "small": "https://edge.media.datahc.com/HP368064750.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI368064758.jpg",
+          "small": "https://edge.media.datahc.com/HP368064758.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI368064759.jpg",
+          "small": "https://edge.media.datahc.com/HP368064759.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI368064767.jpg",
+          "small": "https://edge.media.datahc.com/HP368064767.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI345025711.jpg",
+          "small": "https://edge.media.datahc.com/HP345025711.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI368064761.jpg",
+          "small": "https://edge.media.datahc.com/HP368064761.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI368064760.jpg",
+          "small": "https://edge.media.datahc.com/HP368064760.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI363958460.jpg",
+          "small": "https://edge.media.datahc.com/HP363958460.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 73.0,
+          "isCheapestRate": true,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 18,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.4265612.-263714608.0.EUR.2108295856&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 83.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 1,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.3047365.-263714610.5.EUR.2021362916&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 80.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 16,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.11238262.-263714634.8.EUR.1978457398&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 95.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 2,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.40011163.-263714631.24.EUR.1084824868&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 188.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 19,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.47382410.-263714605.63.EUR.968891111&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 1207753,
+      "key": "hotel:Hotel_Dom_Henrique_Downtown",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:Hotel_Dom_Henrique_Downtown",
+      "name": "Hotel Dom Henrique Downtown",
+      "address": "Rua Guedes de Azevedo, 179",
+      "latitude": 41.152275,
+      "longitude": -8.606927,
+      "distance": 552,
+      "isWithinBoundary": true,
+      "starRating": 4,
+      "isSelfRated": false,
+      "lowestRate": 73.0,
+      "highestRate": 292.0,
+      "isGreatValue": true,
+      "numberOfProviders": 18,
+      "numberOfRates": 19,
+      "imageSprite": "https://edge.media.datahc.com/Z1207753.jpg?v=1973976643",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI219973297.jpg",
+          "small": "https://edge.media.datahc.com/HP219973297.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI261187510.jpg",
+          "small": "https://edge.media.datahc.com/HP261187510.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI261187511.jpg",
+          "small": "https://edge.media.datahc.com/HP261187511.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI261187512.jpg",
+          "small": "https://edge.media.datahc.com/HP261187512.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI261187513.jpg",
+          "small": "https://edge.media.datahc.com/HP261187513.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI261187514.jpg",
+          "small": "https://edge.media.datahc.com/HP261187514.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI261187515.jpg",
+          "small": "https://edge.media.datahc.com/HP261187515.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI261187516.jpg",
+          "small": "https://edge.media.datahc.com/HP261187516.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI261187518.jpg",
+          "small": "https://edge.media.datahc.com/HP261187518.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI261187519.jpg",
+          "small": "https://edge.media.datahc.com/HP261187519.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI261187521.jpg",
+          "small": "https://edge.media.datahc.com/HP261187521.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI261187522.jpg",
+          "small": "https://edge.media.datahc.com/HP261187522.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI261187523.jpg",
+          "small": "https://edge.media.datahc.com/HP261187523.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 83.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 0,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.3218902.-263714604.5.EUR.60332568&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 80.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 1,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.3047368.-263714610.8.EUR.463555130&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 80.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 3,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.38307565.-263714621.3.EUR.1615642463&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 76.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 4,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.13482620.-263714667.2.EUR.488442343&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 292.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 5,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.6466782.-263714627.120.EUR.568593289&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 1644965,
+      "key": "hotel:InterContinental_Porto_Palacio_das_Cardosas",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:InterContinental_Porto_Palacio_das_Cardosas",
+      "name": "InterContinental Porto Palacio das Cardosas",
+      "address": "Praca Liberdade 25",
+      "latitude": 41.1460152,
+      "longitude": -8.6116238,
+      "distance": 468,
+      "isWithinBoundary": true,
+      "starRating": 5,
+      "isSelfRated": false,
+      "lowestRate": 73.0,
+      "highestRate": 305.0,
+      "isGreatValue": true,
+      "numberOfProviders": 18,
+      "numberOfRates": 18,
+      "imageSprite": "https://edge.media.datahc.com/Z1644965.jpg?v=1391160386",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI282669510.jpg?source=Leonardo",
+          "small": "https://edge.media.datahc.com/HP282669510.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI282669511.jpg?source=Leonardo",
+          "small": "https://edge.media.datahc.com/HP282669511.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI500882256.jpg?source=Leonardo",
+          "small": "https://edge.media.datahc.com/HP500882256.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI282669499.jpg?source=Leonardo",
+          "small": "https://edge.media.datahc.com/HP282669499.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI282669524.jpg?source=Leonardo",
+          "small": "https://edge.media.datahc.com/HP282669524.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI282669517.jpg?source=Leonardo",
+          "small": "https://edge.media.datahc.com/HP282669517.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI282669520.jpg?source=Leonardo",
+          "small": "https://edge.media.datahc.com/HP282669520.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI282669527.jpg?source=Leonardo",
+          "small": "https://edge.media.datahc.com/HP282669527.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI282669513.jpg?source=Leonardo",
+          "small": "https://edge.media.datahc.com/HP282669513.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI282669526.jpg?source=Leonardo",
+          "small": "https://edge.media.datahc.com/HP282669526.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI282669514.jpg?source=Leonardo",
+          "small": "https://edge.media.datahc.com/HP282669514.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI282669516.jpg?source=Leonardo",
+          "small": "https://edge.media.datahc.com/HP282669516.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI282669518.jpg?source=Leonardo",
+          "small": "https://edge.media.datahc.com/HP282669518.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 73.0,
+          "isCheapestRate": true,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 17,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.39664428.-263714629.0.EUR.1731993963&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 84.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 16,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.11238266.-263714634.11.EUR.1629189028&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 106.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0
+          ],
+          "availableRooms": null,
+          "providerIndex": 2,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.40011216.-263714615.18.EUR.1529286860&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 99.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 3,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.45237992.-263714621.14.EUR.2015357501&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 305.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 10,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.13624848.-263714637.127.EUR.502654222&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 1123621,
+      "key": "hotel:Pao_de_Acucar_Hotel",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:Pao_de_Acucar_Hotel",
+      "name": "Pao de Acucar Hotel",
+      "address": "Rua do Almada 262",
+      "latitude": 41.1488,
+      "longitude": -8.612113,
+      "distance": 277,
+      "isWithinBoundary": true,
+      "starRating": 3,
+      "isSelfRated": false,
+      "lowestRate": 73.0,
+      "highestRate": 305.0,
+      "isGreatValue": true,
+      "numberOfProviders": 14,
+      "numberOfRates": 14,
+      "imageSprite": "https://edge.media.datahc.com/Z1123621.jpg?v=1722311012",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI161241526.jpg",
+          "small": "https://edge.media.datahc.com/HP161241526.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI161241527.jpg",
+          "small": "https://edge.media.datahc.com/HP161241527.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI161241528.jpg",
+          "small": "https://edge.media.datahc.com/HP161241528.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI161241529.jpg",
+          "small": "https://edge.media.datahc.com/HP161241529.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI161241530.jpg",
+          "small": "https://edge.media.datahc.com/HP161241530.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI161241531.jpg",
+          "small": "https://edge.media.datahc.com/HP161241531.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI161241532.jpg",
+          "small": "https://edge.media.datahc.com/HP161241532.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI161241533.jpg",
+          "small": "https://edge.media.datahc.com/HP161241533.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI161241534.jpg",
+          "small": "https://edge.media.datahc.com/HP161241534.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI161241535.jpg",
+          "small": "https://edge.media.datahc.com/HP161241535.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI161241536.jpg",
+          "small": "https://edge.media.datahc.com/HP161241536.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI161241537.jpg",
+          "small": "https://edge.media.datahc.com/HP161241537.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI161241538.jpg",
+          "small": "https://edge.media.datahc.com/HP161241538.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 73.0,
+          "isCheapestRate": true,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 19,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.47382332.-263714605.0.EUR.1832911627&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 80.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 13,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.14853429.-263714632.8.EUR.943100569&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 100.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 2,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.40011231.-263714615.29.EUR.463275465&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 93.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 20,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.17993011.-263714626.10.EUR.684455674&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 305.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 5,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.6466792.-263714627.127.EUR.1682458905&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 1123618,
+      "key": "hotel:Quality_Inn_Porto",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:Quality_Inn_Porto",
+      "name": "Quality Inn Porto",
+      "address": "Praca Da Batalha, 127 - 130",
+      "latitude": 41.145538,
+      "longitude": -8.60721,
+      "distance": 813,
+      "isWithinBoundary": true,
+      "starRating": 3,
+      "isSelfRated": false,
+      "lowestRate": 73.0,
+      "highestRate": 286.0,
+      "isGreatValue": true,
+      "numberOfProviders": 20,
+      "numberOfRates": 20,
+      "imageSprite": "https://edge.media.datahc.com/Z1123618.jpg?v=1730024105",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI298692704.jpg",
+          "small": "https://edge.media.datahc.com/HP298692704.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI298692705.jpg",
+          "small": "https://edge.media.datahc.com/HP298692705.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI298692706.jpg",
+          "small": "https://edge.media.datahc.com/HP298692706.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI298692707.jpg",
+          "small": "https://edge.media.datahc.com/HP298692707.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI298692708.jpg",
+          "small": "https://edge.media.datahc.com/HP298692708.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI298692709.jpg",
+          "small": "https://edge.media.datahc.com/HP298692709.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI298692710.jpg",
+          "small": "https://edge.media.datahc.com/HP298692710.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI298692711.jpg",
+          "small": "https://edge.media.datahc.com/HP298692711.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI298692712.jpg",
+          "small": "https://edge.media.datahc.com/HP298692712.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI298692713.jpg",
+          "small": "https://edge.media.datahc.com/HP298692713.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI298692714.jpg",
+          "small": "https://edge.media.datahc.com/HP298692714.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI298692715.jpg",
+          "small": "https://edge.media.datahc.com/HP298692715.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI298692716.jpg",
+          "small": "https://edge.media.datahc.com/HP298692716.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 80.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 17,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.48857787.-263714629.3.EUR.683650636&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 73.0,
+          "isCheapestRate": true,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 1,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.3047358.-263714610.0.EUR.1660257239&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 77.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            3
+          ],
+          "availableRooms": null,
+          "providerIndex": 4,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.13482622.-263714667.4.EUR.1965611679&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 76.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0
+          ],
+          "availableRooms": null,
+          "providerIndex": 16,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.7872145.-263714634.1.EUR.596640330&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 286.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 5,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.6466777.-263714627.117.EUR.1286291965&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 1153414,
+      "key": "hotel:Hotel_Aliados",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:Hotel_Aliados",
+      "name": "Hotel Aliados",
+      "address": "Rua Elisio de Melo, 27",
+      "latitude": 41.1479261,
+      "longitude": -8.6116888,
+      "distance": 309,
+      "isWithinBoundary": true,
+      "starRating": 3,
+      "isSelfRated": false,
+      "lowestRate": 73.0,
+      "highestRate": 292.0,
+      "isGreatValue": true,
+      "numberOfProviders": 19,
+      "numberOfRates": 20,
+      "imageSprite": "https://edge.media.datahc.com/Z1153414.jpg?v=-1235406149",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI333388713.jpg",
+          "small": "https://edge.media.datahc.com/HP333388713.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI333388715.jpg",
+          "small": "https://edge.media.datahc.com/HP333388715.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI333388716.jpg",
+          "small": "https://edge.media.datahc.com/HP333388716.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI333388717.jpg",
+          "small": "https://edge.media.datahc.com/HP333388717.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI333388718.jpg",
+          "small": "https://edge.media.datahc.com/HP333388718.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI333388719.jpg",
+          "small": "https://edge.media.datahc.com/HP333388719.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI333388720.jpg",
+          "small": "https://edge.media.datahc.com/HP333388720.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI333388721.jpg",
+          "small": "https://edge.media.datahc.com/HP333388721.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI333388722.jpg",
+          "small": "https://edge.media.datahc.com/HP333388722.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI333388723.jpg",
+          "small": "https://edge.media.datahc.com/HP333388723.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI333388724.jpg",
+          "small": "https://edge.media.datahc.com/HP333388724.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI333388725.jpg",
+          "small": "https://edge.media.datahc.com/HP333388725.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI333388726.jpg",
+          "small": "https://edge.media.datahc.com/HP333388726.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 84.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 0,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.3218914.-263714604.11.EUR.1381492432&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 76.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0
+          ],
+          "availableRooms": null,
+          "providerIndex": 2,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.40011194.-263714615.1.EUR.761934849&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 85.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 4,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.13482639.-263714667.13.EUR.226007535&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 73.0,
+          "isCheapestRate": true,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 21,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.42032787.-263714663.0.EUR.1699479312&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 292.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 10,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.13624798.-263714637.120.EUR.1972684009&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 1123622,
+      "key": "hotel:Sheraton_Porto_Hotel_Spa",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:Sheraton_Porto_Hotel_Spa",
+      "name": "Sheraton Porto Hotel & Spa",
+      "address": "Rua Tenente Valadim 146",
+      "latitude": 41.161096,
+      "longitude": -8.640812,
+      "distance": 3451,
+      "isWithinBoundary": true,
+      "starRating": 5,
+      "isSelfRated": false,
+      "lowestRate": 76.0,
+      "highestRate": 302.0,
+      "isGreatValue": true,
+      "numberOfProviders": 18,
+      "numberOfRates": 19,
+      "imageSprite": "https://edge.media.datahc.com/Z1123622.jpg?v=-1899504142",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI366609941.jpg",
+          "small": "https://edge.media.datahc.com/HP366609941.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI322261454.jpg",
+          "small": "https://edge.media.datahc.com/HP322261454.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI366609942.jpg",
+          "small": "https://edge.media.datahc.com/HP366609942.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI366609943.jpg",
+          "small": "https://edge.media.datahc.com/HP366609943.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI362507886.jpg",
+          "small": "https://edge.media.datahc.com/HP362507886.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI366609944.jpg",
+          "small": "https://edge.media.datahc.com/HP366609944.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI362507887.jpg",
+          "small": "https://edge.media.datahc.com/HP362507887.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI366609945.jpg",
+          "small": "https://edge.media.datahc.com/HP366609945.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI366609946.jpg",
+          "small": "https://edge.media.datahc.com/HP366609946.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI366609947.jpg",
+          "small": "https://edge.media.datahc.com/HP366609947.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI354423859.jpg",
+          "small": "https://edge.media.datahc.com/HP354423859.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI366609948.jpg",
+          "small": "https://edge.media.datahc.com/HP366609948.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI366609949.jpg",
+          "small": "https://edge.media.datahc.com/HP366609949.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 92.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            3
+          ],
+          "availableRooms": null,
+          "providerIndex": 0,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.4685136.-263714604.20.EUR.1840652675&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 89.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            4
+          ],
+          "availableRooms": null,
+          "providerIndex": 4,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.13482633.-263714667.9.EUR.1881074318&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 76.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0
+          ],
+          "availableRooms": null,
+          "providerIndex": 22,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.37259724.-263714633.1.EUR.656321838&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 76.0,
+          "isCheapestRate": true,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0
+          ],
+          "availableRooms": null,
+          "providerIndex": 23,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.4578156.-263714613.1.EUR.1065858265&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 302.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            3
+          ],
+          "availableRooms": null,
+          "providerIndex": 5,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.6466790.-263714627.126.EUR.2094744266&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 1123610,
+      "key": "hotel:HF_Ipanema_Porto",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:HF_Ipanema_Porto",
+      "name": "HF Ipanema Porto",
+      "address": "Rua Do Campo Alegre, 156/172",
+      "latitude": 41.152688,
+      "longitude": -8.630012,
+      "distance": 2046,
+      "isWithinBoundary": true,
+      "starRating": 4,
+      "isSelfRated": false,
+      "lowestRate": 76.0,
+      "highestRate": 198.0,
+      "isGreatValue": true,
+      "numberOfProviders": 20,
+      "numberOfRates": 20,
+      "imageSprite": "https://edge.media.datahc.com/Z1123610.jpg?v=-689216310",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI162520164.jpg",
+          "small": "https://edge.media.datahc.com/HP162520164.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520163.jpg",
+          "small": "https://edge.media.datahc.com/HP162520163.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520158.jpg",
+          "small": "https://edge.media.datahc.com/HP162520158.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI358684365.jpg",
+          "small": "https://edge.media.datahc.com/HP358684365.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI167340931.jpg",
+          "small": "https://edge.media.datahc.com/HP167340931.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI185310383.jpg",
+          "small": "https://edge.media.datahc.com/HP185310383.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520175.jpg",
+          "small": "https://edge.media.datahc.com/HP162520175.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520174.jpg",
+          "small": "https://edge.media.datahc.com/HP162520174.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520167.jpg",
+          "small": "https://edge.media.datahc.com/HP162520167.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520169.jpg",
+          "small": "https://edge.media.datahc.com/HP162520169.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI167340934.jpg",
+          "small": "https://edge.media.datahc.com/HP167340934.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI167340932.jpg",
+          "small": "https://edge.media.datahc.com/HP167340932.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI167340933.jpg",
+          "small": "https://edge.media.datahc.com/HP167340933.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 87.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 6,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.18187810.-263714654.15.EUR.1314956157&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 80.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 0,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.3218907.-263714604.8.EUR.401510462&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 77.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            3
+          ],
+          "availableRooms": null,
+          "providerIndex": 1,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.3047364.-263714610.4.EUR.1196339318&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 84.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 2,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.40010935.-263714652.11.EUR.742375927&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 198.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 5,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.6466813.-263714627.137.EUR.1020140456&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 1123601,
+      "key": "hotel:Grande_Hotel_Do_Porto",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:Grande_Hotel_Do_Porto",
+      "name": "Grande Hotel Do Porto",
+      "address": "Rua de Santa Catarina, 197",
+      "latitude": 41.147985,
+      "longitude": -8.606516,
+      "distance": 488,
+      "isWithinBoundary": true,
+      "starRating": 3,
+      "isSelfRated": false,
+      "lowestRate": 73.0,
+      "highestRate": 269.0,
+      "isGreatValue": true,
+      "numberOfProviders": 16,
+      "numberOfRates": 16,
+      "imageSprite": "https://edge.media.datahc.com/Z1123601.jpg?v=329861205",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI107421036.jpg",
+          "small": "https://edge.media.datahc.com/HP107421036.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI107420983.jpg",
+          "small": "https://edge.media.datahc.com/HP107420983.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI107420987.jpg",
+          "small": "https://edge.media.datahc.com/HP107420987.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI107420989.jpg",
+          "small": "https://edge.media.datahc.com/HP107420989.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI107420992.jpg",
+          "small": "https://edge.media.datahc.com/HP107420992.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI107420995.jpg",
+          "small": "https://edge.media.datahc.com/HP107420995.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI107420997.jpg",
+          "small": "https://edge.media.datahc.com/HP107420997.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI107420999.jpg",
+          "small": "https://edge.media.datahc.com/HP107420999.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI107421003.jpg",
+          "small": "https://edge.media.datahc.com/HP107421003.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI107421006.jpg",
+          "small": "https://edge.media.datahc.com/HP107421006.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI107421008.jpg",
+          "small": "https://edge.media.datahc.com/HP107421008.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI107421011.jpg",
+          "small": "https://edge.media.datahc.com/HP107421011.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI107421013.jpg",
+          "small": "https://edge.media.datahc.com/HP107421013.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 86.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 1,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.3047367.-263714610.7.EUR.278480980&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 73.0,
+          "isCheapestRate": true,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 4,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.13482617.-263714667.0.EUR.2102936749&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 79.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 7,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.20670032.-263714638.6.EUR.1816653977&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 80.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 9,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.14326118.-263714622.3.EUR.903090795&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 269.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 10,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.13624783.-263714637.108.EUR.949493043&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 1207751,
+      "key": "hotel:HF_Tuela_Porto",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:HF_Tuela_Porto",
+      "name": "HF Tuela Porto",
+      "address": "Rua Arq. Marques Da Silva, 200",
+      "latitude": 41.154448,
+      "longitude": -8.630597,
+      "distance": 2301,
+      "isWithinBoundary": true,
+      "starRating": 3,
+      "isSelfRated": false,
+      "lowestRate": 73.0,
+      "highestRate": 247.0,
+      "isGreatValue": true,
+      "numberOfProviders": 19,
+      "numberOfRates": 20,
+      "imageSprite": "https://edge.media.datahc.com/Z1207751.jpg?v=22098804",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI115948831.jpg",
+          "small": "https://edge.media.datahc.com/HP115948831.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI343179492.jpg",
+          "small": "https://edge.media.datahc.com/HP343179492.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162520226.jpg",
+          "small": "https://edge.media.datahc.com/HP162520226.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162548820.jpg",
+          "small": "https://edge.media.datahc.com/HP162548820.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI169158432.jpg",
+          "small": "https://edge.media.datahc.com/HP169158432.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162548819.jpg",
+          "small": "https://edge.media.datahc.com/HP162548819.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162548817.jpg",
+          "small": "https://edge.media.datahc.com/HP162548817.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162548821.jpg",
+          "small": "https://edge.media.datahc.com/HP162548821.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162548814.jpg",
+          "small": "https://edge.media.datahc.com/HP162548814.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162548813.jpg",
+          "small": "https://edge.media.datahc.com/HP162548813.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162548816.jpg",
+          "small": "https://edge.media.datahc.com/HP162548816.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162548815.jpg",
+          "small": "https://edge.media.datahc.com/HP162548815.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI162548818.jpg",
+          "small": "https://edge.media.datahc.com/HP162548818.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 89.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            4
+          ],
+          "availableRooms": null,
+          "providerIndex": 6,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.18187812.-263714654.17.EUR.1407710531&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 85.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 0,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.3218922.-263714604.13.EUR.2048789373&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 79.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 1,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.3047366.-263714610.6.EUR.1899389358&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 89.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            4
+          ],
+          "availableRooms": null,
+          "providerIndex": 2,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.45999602.-263714661.9.EUR.1022359694&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 247.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 10,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.17793414.-263714637.95.EUR.188188106&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 1502887,
+      "key": "hotel:Star_Inn_Porto",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:Star_Inn_Porto",
+      "name": "Star Inn Porto",
+      "address": "R. Senhora do Porto, 930",
+      "latitude": 41.179203,
+      "longitude": -8.623562,
+      "distance": 4319,
+      "isWithinBoundary": true,
+      "starRating": 3,
+      "isSelfRated": false,
+      "lowestRate": 83.0,
+      "highestRate": 299.0,
+      "isGreatValue": true,
+      "numberOfProviders": 16,
+      "numberOfRates": 17,
+      "imageSprite": "https://edge.media.datahc.com/Z1502887.jpg?v=-1042852164",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI372436154.jpg",
+          "small": "https://edge.media.datahc.com/HP372436154.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI372436105.jpg",
+          "small": "https://edge.media.datahc.com/HP372436105.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI372436307.jpg",
+          "small": "https://edge.media.datahc.com/HP372436307.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI372436318.jpg",
+          "small": "https://edge.media.datahc.com/HP372436318.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI372436181.jpg",
+          "small": "https://edge.media.datahc.com/HP372436181.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI372436172.jpg",
+          "small": "https://edge.media.datahc.com/HP372436172.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI372436144.jpg",
+          "small": "https://edge.media.datahc.com/HP372436144.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI372436085.jpg",
+          "small": "https://edge.media.datahc.com/HP372436085.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI372436188.jpg",
+          "small": "https://edge.media.datahc.com/HP372436188.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI372436334.jpg",
+          "small": "https://edge.media.datahc.com/HP372436334.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI372436198.jpg",
+          "small": "https://edge.media.datahc.com/HP372436198.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI372436098.jpg",
+          "small": "https://edge.media.datahc.com/HP372436098.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI372436237.jpg",
+          "small": "https://edge.media.datahc.com/HP372436237.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 100.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 0,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.6528048.-263714604.29.EUR.1198798484&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 94.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 1,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.3047388.-263714610.22.EUR.190488032&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 89.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            4
+          ],
+          "availableRooms": null,
+          "providerIndex": 4,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.13482648.-263714667.17.EUR.607220447&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 85.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 7,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.48449869.-263714619.13.EUR.723386570&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 299.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 10,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.13624802.-263714637.124.EUR.647886621&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 1123629,
+      "key": "hotel:Hotel_Internacional_Porto",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:Hotel_Internacional_Porto",
+      "name": "Hotel Internacional Porto",
+      "address": "Rua do Almada 131",
+      "latitude": 41.147323,
+      "longitude": -8.612171,
+      "distance": 420,
+      "isWithinBoundary": true,
+      "starRating": 3,
+      "isSelfRated": false,
+      "lowestRate": 73.0,
+      "highestRate": 214.0,
+      "isGreatValue": true,
+      "numberOfProviders": 14,
+      "numberOfRates": 14,
+      "imageSprite": "https://edge.media.datahc.com/Z1123629.jpg?v=1899121901",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI345385015.jpg",
+          "small": "https://edge.media.datahc.com/HP345385015.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI345385017.jpg",
+          "small": "https://edge.media.datahc.com/HP345385017.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI345385018.jpg",
+          "small": "https://edge.media.datahc.com/HP345385018.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI345385019.jpg",
+          "small": "https://edge.media.datahc.com/HP345385019.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI345385020.jpg",
+          "small": "https://edge.media.datahc.com/HP345385020.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI345385021.jpg",
+          "small": "https://edge.media.datahc.com/HP345385021.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI345385022.jpg",
+          "small": "https://edge.media.datahc.com/HP345385022.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI345385023.jpg",
+          "small": "https://edge.media.datahc.com/HP345385023.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI345385024.jpg",
+          "small": "https://edge.media.datahc.com/HP345385024.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI345385025.jpg",
+          "small": "https://edge.media.datahc.com/HP345385025.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI345385026.jpg",
+          "small": "https://edge.media.datahc.com/HP345385026.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI345385027.jpg",
+          "small": "https://edge.media.datahc.com/HP345385027.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI345385028.jpg",
+          "small": "https://edge.media.datahc.com/HP345385028.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 73.0,
+          "isCheapestRate": true,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 0,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.1126762.-263714604.0.EUR.1779891331&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 89.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            4
+          ],
+          "availableRooms": null,
+          "providerIndex": 1,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.3047378.-263714610.17.EUR.1693890113&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 76.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0
+          ],
+          "availableRooms": null,
+          "providerIndex": 13,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.14853413.-263714632.1.EUR.2068024705&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 77.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            3
+          ],
+          "availableRooms": null,
+          "providerIndex": 20,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.17993000.-263714626.4.EUR.54878277&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 214.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            3
+          ],
+          "availableRooms": null,
+          "providerIndex": 19,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.47382427.-263714605.77.EUR.1476784832&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 1123602,
+      "key": "hotel:Grande_Hotel_de_Paris",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:Grande_Hotel_de_Paris",
+      "name": "Grande Hotel de Paris",
+      "address": "Rua da FAbrica, 27/29",
+      "latitude": 41.147282,
+      "longitude": -8.612666,
+      "distance": 476,
+      "isWithinBoundary": true,
+      "starRating": 3,
+      "isSelfRated": false,
+      "lowestRate": 73.0,
+      "highestRate": 250.0,
+      "isGreatValue": true,
+      "numberOfProviders": 15,
+      "numberOfRates": 15,
+      "imageSprite": "https://edge.media.datahc.com/Z1123602.jpg?v=1915760038",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI271626187.jpg",
+          "small": "https://edge.media.datahc.com/HP271626187.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271626189.jpg",
+          "small": "https://edge.media.datahc.com/HP271626189.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271626190.jpg",
+          "small": "https://edge.media.datahc.com/HP271626190.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271626191.jpg",
+          "small": "https://edge.media.datahc.com/HP271626191.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271626192.jpg",
+          "small": "https://edge.media.datahc.com/HP271626192.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271626193.jpg",
+          "small": "https://edge.media.datahc.com/HP271626193.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271626194.jpg",
+          "small": "https://edge.media.datahc.com/HP271626194.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271626195.jpg",
+          "small": "https://edge.media.datahc.com/HP271626195.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271626196.jpg",
+          "small": "https://edge.media.datahc.com/HP271626196.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271626197.jpg",
+          "small": "https://edge.media.datahc.com/HP271626197.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271626198.jpg",
+          "small": "https://edge.media.datahc.com/HP271626198.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271626199.jpg",
+          "small": "https://edge.media.datahc.com/HP271626199.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271626200.jpg",
+          "small": "https://edge.media.datahc.com/HP271626200.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 84.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 1,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.3047372.-263714610.11.EUR.430883827&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 80.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 7,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.45123873.-263714619.8.EUR.865721681&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 73.0,
+          "isCheapestRate": true,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 24,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.17468276.-263714625.0.EUR.162072174&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 80.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 12,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.26178181.-263714647.3.EUR.1187366100&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 250.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 10,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.17793416.-263714637.97.EUR.913961974&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 1789298,
+      "key": "hotel:Tattva_Design_Hostel",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:Tattva_Design_Hostel",
+      "name": "Tattva Design Hostel",
+      "address": "Rua do Cativo 26-28",
+      "latitude": 41.1441639,
+      "longitude": -8.6089253,
+      "distance": 820,
+      "isWithinBoundary": true,
+      "starRating": 2,
+      "isSelfRated": false,
+      "lowestRate": 129.0,
+      "highestRate": 243.0,
+      "isGreatValue": false,
+      "numberOfProviders": 6,
+      "numberOfRates": 6,
+      "imageSprite": "https://edge.media.datahc.com/Z1789298.jpg?v=50387453",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI123674223.jpg",
+          "small": "https://edge.media.datahc.com/HP123674223.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI123674168.jpg",
+          "small": "https://edge.media.datahc.com/HP123674168.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI123674172.jpg",
+          "small": "https://edge.media.datahc.com/HP123674172.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI123674176.jpg",
+          "small": "https://edge.media.datahc.com/HP123674176.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI123674181.jpg",
+          "small": "https://edge.media.datahc.com/HP123674181.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI123674186.jpg",
+          "small": "https://edge.media.datahc.com/HP123674186.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI123674189.jpg",
+          "small": "https://edge.media.datahc.com/HP123674189.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI123674192.jpg",
+          "small": "https://edge.media.datahc.com/HP123674192.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI123674195.jpg",
+          "small": "https://edge.media.datahc.com/HP123674195.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI123674200.jpg",
+          "small": "https://edge.media.datahc.com/HP123674200.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI123674203.jpg",
+          "small": "https://edge.media.datahc.com/HP123674203.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI123674205.jpg",
+          "small": "https://edge.media.datahc.com/HP123674205.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI123674207.jpg",
+          "small": "https://edge.media.datahc.com/HP123674207.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 129.0,
+          "isCheapestRate": true,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 5,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.37398068.-263714627.30.EUR.1815132198&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 142.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            0,
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 2,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.40010968.-263714652.37.EUR.1231868799&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 149.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            2
+          ],
+          "availableRooms": null,
+          "providerIndex": 4,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.16348462.-263714667.83.EUR.485719664&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 197.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            1
+          ],
+          "availableRooms": null,
+          "providerIndex": 1,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.38565497.-263714610.68.EUR.1600695064&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 243.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            3
+          ],
+          "availableRooms": null,
+          "providerIndex": 25,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.36214280.-263714666.93.EUR.780980554&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    },
+    {
+      "id": 1567327,
+      "key": "hotel:Teatro_Hotel_Porto",
+      "href": "http://sandbox.hotelscombined.com/api/2.0/hotel?apiKey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionID=testsession1&destination=place%3APorto&checkin=2018-02-05&checkout=2018-02-15&rooms=1&responseOptions=destination%2Ctoprates%2Cimages&hotel=hotel:Teatro_Hotel_Porto",
+      "name": "Teatro Hotel Porto",
+      "address": "Rua Sá da Bandeira 84",
+      "latitude": 41.146684,
+      "longitude": -8.609213,
+      "distance": 453,
+      "isWithinBoundary": true,
+      "starRating": 4,
+      "isSelfRated": false,
+      "lowestRate": 77.0,
+      "highestRate": 204.0,
+      "isGreatValue": true,
+      "numberOfProviders": 15,
+      "numberOfRates": 16,
+      "imageSprite": "https://edge.media.datahc.com/Z1567327.jpg?v=-624835477",
+      "images": [
+        {
+          "large": "https://edge.media.datahc.com/HI271629925.jpg",
+          "small": "https://edge.media.datahc.com/HP271629925.jpg",
+          "sprites": [
+            {
+              "x": 0,
+              "width": 134,
+              "height": 134
+            },
+            {
+              "x": 134,
+              "width": 88,
+              "height": 88
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271629926.jpg",
+          "small": "https://edge.media.datahc.com/HP271629926.jpg",
+          "sprites": [
+            {
+              "x": 222,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271629927.jpg",
+          "small": "https://edge.media.datahc.com/HP271629927.jpg",
+          "sprites": [
+            {
+              "x": 262,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271629928.jpg",
+          "small": "https://edge.media.datahc.com/HP271629928.jpg",
+          "sprites": [
+            {
+              "x": 302,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271629929.jpg",
+          "small": "https://edge.media.datahc.com/HP271629929.jpg",
+          "sprites": [
+            {
+              "x": 342,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271629930.jpg",
+          "small": "https://edge.media.datahc.com/HP271629930.jpg",
+          "sprites": [
+            {
+              "x": 382,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271629931.jpg",
+          "small": "https://edge.media.datahc.com/HP271629931.jpg",
+          "sprites": [
+            {
+              "x": 422,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271629932.jpg",
+          "small": "https://edge.media.datahc.com/HP271629932.jpg",
+          "sprites": [
+            {
+              "x": 462,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271629933.jpg",
+          "small": "https://edge.media.datahc.com/HP271629933.jpg",
+          "sprites": [
+            {
+              "x": 502,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271629934.jpg",
+          "small": "https://edge.media.datahc.com/HP271629934.jpg",
+          "sprites": [
+            {
+              "x": 542,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271629935.jpg",
+          "small": "https://edge.media.datahc.com/HP271629935.jpg",
+          "sprites": [
+            {
+              "x": 582,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271629936.jpg",
+          "small": "https://edge.media.datahc.com/HP271629936.jpg",
+          "sprites": [
+            {
+              "x": 622,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "large": "https://edge.media.datahc.com/HI271629937.jpg",
+          "small": "https://edge.media.datahc.com/HP271629937.jpg",
+          "sprites": [
+            {
+              "x": 662,
+              "width": 40,
+              "height": 40
+            }
+          ]
+        }
+      ],
+      "rates": [
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 77.0,
+          "isCheapestRate": true,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            3
+          ],
+          "availableRooms": null,
+          "providerIndex": 3,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.38307566.-263714621.4.EUR.918809919&source=201-0&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 89.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [
+            4
+          ],
+          "availableRooms": null,
+          "providerIndex": 22,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.33795872.-263714633.9.EUR.732022565&source=201-1&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 86.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 16,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.11238261.-263714634.7.EUR.596153260&source=201-2&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 87.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 24,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.29028515.-263714628.15.EUR.1397263402&source=201-3&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        },
+        {
+          "roomName": "Nice Room with a View",
+          "totalRate": 204.0,
+          "isCheapestRate": false,
+          "hasFreeCancellation": null,
+          "canPayLater": false,
+          "inclusions": [],
+          "availableRooms": null,
+          "providerIndex": 7,
+          "isDeprioritisedForExcludedCharges": false,
+          "bookUri": "/ProviderRedirect.ashx?key=0.6686237.-263714638.72.EUR.1282918334&source=201-4&a_aid=187167&brandID=545078",
+          "isBundledRate": false
+        }
+      ]
+    }
+  ],
+  "destination": {
+    "id": 58417,
+    "key": "place:Porto",
+    "href": "http://sandbox.hotelscombined.com/api/2.0/hotels?apikey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionid=testsession1&rooms=1&adults_1=2&checkin=2018-02-05&checkout=2018-02-15&ResponseOptions=destination%2Ctoprates%2Cimages&destination=place:Porto",
+    "type": 2,
+    "name": "Porto",
+    "fullName": "Porto, Portugal",
+    "isSearchable": true,
+    "latitude": 41.149968,
+    "longitude": -8.6102426,
+    "hasBoundary": true,
+    "radius": 0,
+    "maximumRadius": 50000
+  }
+}

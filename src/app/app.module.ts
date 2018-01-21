@@ -16,6 +16,7 @@ import { adminLteConf } from '../../config/admin-lte';
 import { AppComponent } from './app.component';
 import { BbvaService } from './services/bbva/bbva.service';
 import { HcService } from './services/hc/hc.service';
+import { MinubeService } from './services/minube/minube.service';
 
 import { LoginComponent } from './components/shared/login/login.component';
 import { LoginBankComponent } from './components/shared/login-bank/login-bank.component';
@@ -61,7 +62,8 @@ import { LogoutComponent } from './components/shared/logout/logout.component';
     BbvaService,
     HcService,
     AuthenticationService,
-    AuthGuardService
+    AuthGuardService,
+    MinubeService
   ],
   bootstrap: [AppComponent]
 })

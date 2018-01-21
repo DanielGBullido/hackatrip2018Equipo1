@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from "@angular/router";
 
 import { BbvaService } from '../../services/bbva/bbva.service';
+import { MinubeService } from '../../services/minube/minube.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -9,13 +10,17 @@ import { BbvaService } from '../../services/bbva/bbva.service';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
+  zonas: any;
   userData: any;
   chartData: any;
   compras: any = 24;
   mediaAhorro: any = 1.25;
   totalAhorro: any = "68€";
   ObjetivoTotal: any = 118;
-  constructor(private activatedRouted: ActivatedRoute, private _BbvaService: BbvaService) {
+  constructor(private activatedRouted: ActivatedRoute,
+    private _BbvaService: BbvaService,
+    private minube: MinubeService
+  ) {
     this.chartData = {
       labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
       datasets: [
@@ -36,9 +41,11 @@ export class DashboardComponent implements OnInit {
   }
 
   ngOnInit() {
+    //this.zonas = this.minube.getZones();
+    console.log(this.zonas);
     let params = new URLSearchParams(document.location.search.substring(1));
     let code = params.get("code");
-    this.userData = this._BbvaService.getFullInfo(code);
+    //this.userData = this._BbvaService.getFullInfo(code);
   }
 
 }
