@@ -50,7 +50,6 @@ import { LogoutComponent } from './components/shared/logout/logout.component';
     HttpClientModule,
     LayoutModule.forRoot(adminLteConf),
     FormsModule,
-    HttpClientModule,
     AccordionModule,
     BoxInfoModule,
     BoxSmallModule,

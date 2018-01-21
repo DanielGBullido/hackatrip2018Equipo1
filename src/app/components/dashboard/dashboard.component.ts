@@ -41,7 +41,7 @@ export class DashboardComponent implements OnInit {
   }
 
   ngOnInit() {
-    //this.zonas = this.minube.getZones();
+    this.zonas = this.minube.getZones().subscribe(data => {console.log(data); });
     console.log(this.zonas);
     let params = new URLSearchParams(document.location.search.substring(1));
     let code = params.get("code");
