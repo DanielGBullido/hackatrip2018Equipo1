@@ -1,12 +1,14 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { Observable } from 'rxjs/Observable';
 
 @Injectable()
 export class MinubeService {
   results: any;
-  constructor(public http: HttpClient) { }
+  http: HttpClient;
 
+<<<<<<< HEAD
   private getHeaders(): HttpHeaders {
     let headers = new HttpHeaders({
       'authorization': 'Basic  YXBwLmJidmEuZXF1aXBvMTpsN0owbGFAQGY1elZMaVRJT2xGUVZ6TmpsdXBjTGF5U3ExOHluOUo3VGE3V3o4dW9aa2ROOVdubkFwUTl0Y3NP',
@@ -35,6 +37,30 @@ export class MinubeService {
       });
     });
   }
+=======
+  constructor(http: HttpClient) {
+    this.http = http;
+   }
+   getZones(): Observable<any> {
+    let url = `http://papi.minube.com/zones?lang=es&country_id=164&api_key=y6mNny`;
+    console.log(url);
+return this.http.get(url, {
+  headers: new HttpHeaders()
+    .set('Content-Type', 'application/json')
+} );
+}
+
+  // getZones() {
+  //   let url = `http://papi.minube.com/zones?lang=es&country_id=164&api_key=y6mNny`;
+  //   console.log(url);
+  //   return this.http.request('GET', url, {
+  //     headers: new HttpHeaders()
+  //       .set('Content-Type', 'application/json')
+  //   }).subscribe(data => {
+  //     this.results = data;
+  //   });
+  // }
+>>>>>>> f38f490d2027e82b8eb8bc4100c7a76a860af945
 
 
 }

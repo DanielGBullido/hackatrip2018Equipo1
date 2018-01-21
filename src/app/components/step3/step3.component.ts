@@ -11,15 +11,30 @@ export class Step3Component implements OnInit {
   ahorroInput = 0;
   ahorro: number;
   display = false;
-  constructor(private router: Router,  protected bbvaService: BbvaService) { }
+  constructor(private router: Router,  protected bbvaService: BbvaService) {
+    router.events.subscribe(
+      event => {
+        const urlStep3: string = event['url'];
+        if (urlStep3) {
+          const token = urlStep3.substring(12);
+          localStorage.setItem('token', token);
+          // this.router.navigate(['/step3']);
+          console.log(token);
+          
+        }
+        console.log(event['url']);
+      }
+    );
+   }
 
   ngOnInit() {
 // console.log('route', this.route);
 console.log('router', this.router);
+this.getInfoBbva(localStorage.getItem('token'));
   }
 
-  getInfoBbva() {
-    this.bbvaService.getFullInfo(localStorage.getItem('token'));
+  getInfoBbva(token: string) {
+    const fullinfo = this.bbvaService.getFullInfo(token);
   }
 
   calcular() {
