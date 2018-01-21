@@ -31,12 +31,6 @@ export class DashboardComponent implements OnInit {
           data: [65, 100, 128, 150, 210, 230],
           fill: false,
           borderColor: '#605ca8'
-        },
-        {
-          label: 'Second Dataset',
-          data: [300, 300, 300, 300, 300, 300, 300],
-          fill: false,
-          borderColor: '#565656'
         }
       ]
     };
@@ -47,6 +41,7 @@ export class DashboardComponent implements OnInit {
     console.log(this.zonas);
     let params = new URLSearchParams(document.location.search.substring(1));
     let code = params.get("code");
+
     //this.userData = this._BbvaService.getFullInfo(code);
   }
 
