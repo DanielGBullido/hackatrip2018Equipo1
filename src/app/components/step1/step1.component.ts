@@ -25,8 +25,7 @@ export class Step1Component implements OnInit {
 
   search($event) {
     let q = $event.target.value;
-    this.results = this.hc.getDestination(q);
-
+    this.results = this.hc.getDestination(q).subscribe(data => { console.log(data); });
   }
 
   go() {
