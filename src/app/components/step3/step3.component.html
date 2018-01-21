@@ -4,21 +4,21 @@
     <div class="radio">
       <div class="col-md-12">
         <label>
-        <input type="radio" name="optradio" [value]="1" [(ngModel)]="ahorro">
-      Redondeo a 1€ plazo aproximado de ahorro 11 meses
+        <input type="radio" name="optradio" value="{{dato1}}" >
+      Redondeo a {{dato1}}€ plazo aproximado de ahorro {{periodo}} meses
     </label>
       </div>
       <div class="col-md-12">
         <label>
-        <input type="radio" name="optradio" [value]="3" [(ngModel)]="ahorro">
-      Redondeo a 3€ plazo aproximado de ahorro 4 meses
+        <input type="radio" name="optradio" value="{{dato2}}" >
+      Redondeo a {{dato2}}€ plazo aproximado de ahorro {{periodo - 2}} meses
 
     </label>
       </div>
       <div class="col-md-12">
         <label>
-          <input type="radio" name="optradio" [value]="6" [(ngModel)]="ahorro">
-        Redondeo a 6€ plazo aproximado de ahorro 2 meses
+          <input type="radio" name="optradio" value="{{dato3}}" >
+        Redondeo a {{dato3}}€ plazo aproximado de ahorro {{periodo - 4}} meses
 
       </label>
       </div>
@@ -29,6 +29,6 @@
 
 
 
-    <a class="btn btn-default" [routerLink]="['dashboard']">Ahora empieza lo bueno!</a>
+    <a class="btn btn-default">Ahora empieza lo bueno!</a>
   </div>
 </div>

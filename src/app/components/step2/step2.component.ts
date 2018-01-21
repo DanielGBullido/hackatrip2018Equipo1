@@ -9,10 +9,12 @@ import { Route } from '@angular/router/src/config';
 })
 export class Step2Component implements OnInit {
   fecha: Date = new Date();
+  fechaFin: Date = new Date();
   periodo: string;
+  duracion: string;
   constructor(private router: Router) {
 
-   }
+  }
 
   ngOnInit() {
     const slider: any = document.getElementById("duration");
@@ -26,7 +28,8 @@ export class Step2Component implements OnInit {
 
   go() {
     localStorage.setItem('fecha', this.fecha.toString());
-    localStorage.setItem('fecha', this.periodo);
+    localStorage.setItem('fechaFin', this.fechaFin.toString());
+    localStorage.setItem('periodo', this.periodo);
     // this.router.navigateByUrl(
     //   'https://connect.bbva.com/token/authorize?client_id=app.bbva.equipo1&response_type=code&redirect_uri=http://localhost:4200/step3');
     // this.router.navigate(['/step3']);
