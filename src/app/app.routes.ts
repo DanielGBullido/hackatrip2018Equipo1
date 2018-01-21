@@ -12,11 +12,6 @@ const app_routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'logout', component: LogoutComponent },
   {
-    path: 'dashboard?code=:id',
-    component: DashboardComponent,
-    //canActivate: [AuthGuardService]
-  },
-  {
     path: 'dashboard',
     component: DashboardComponent,
     //canActivate: [AuthGuardService]

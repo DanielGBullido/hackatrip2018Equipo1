@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from "@angular/router";
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 import { BbvaService } from '../../services/bbva/bbva.service';
 import { MinubeService } from '../../services/minube/minube.service';
@@ -19,7 +20,8 @@ export class DashboardComponent implements OnInit {
   ObjetivoTotal: any = 118;
   constructor(private activatedRouted: ActivatedRoute,
     private _BbvaService: BbvaService,
-    private minube: MinubeService
+    private minube: MinubeService,
+    private http: HttpClient
   ) {
     this.chartData = {
       labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
@@ -41,13 +43,7 @@ export class DashboardComponent implements OnInit {
   }
 
   ngOnInit() {
-<<<<<<< HEAD
-    this.minube.getZones().subscribe(zonas => {
-      this.zonas = zonas;
-    });
-=======
-    this.zonas = this.minube.getZones().subscribe(data => {console.log(data); });
->>>>>>> f38f490d2027e82b8eb8bc4100c7a76a860af945
+    this.zonas = this.minube.getZones().subscribe(data => { console.log(data); });
     console.log(this.zonas);
     let params = new URLSearchParams(document.location.search.substring(1));
     let code = params.get("code");

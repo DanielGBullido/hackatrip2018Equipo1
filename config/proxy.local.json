@@ -1,0 +1,7 @@
+{
+  "*":{
+    "target":"http://equipo1.dev:4200",
+    "secure":false,
+    "logLevel":"debug"
+  }
+}
