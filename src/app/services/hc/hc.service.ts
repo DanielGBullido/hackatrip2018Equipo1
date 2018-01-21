@@ -37,15 +37,28 @@ export class HcService {
         observer.complete();
         return;
       }
-      let url = `http://sandbox.hotelscombined.com/api/2.0/hotels?destination=place:${query}&apikey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionid=testsession1&ClientIp=192.168.1.35&rooms=1&adults_1=2&checkin=2018-02-05&checkout=2018-02-15&ResponseOptions=destination%2Ctoprates%2Cimages`;
+      let url = `http://sandbox.hotelscombined.com/api/2.0/hotels?destination=place:${query}&apikey=042E78D4-282D-41F5-AA8A-FAB22C9240F0&sessionid=testsession1&ClientIp=192.168.1.35&rooms=1&adults_1=2&checkin=2018-02-05&checkout=2018-02-15&ResponseOptions=destination%2Ctoprates%2Cimages&onlyIfcomplete=true`;
       this.http.get(url, {
         headers: this.authHeaders()
       }).subscribe(result => {
+
         this.results = result;
+        console.log('result', result);
+        observer.next(this.results);
+        observer.complete();
+      });
+      this.http.get(url, {
+        headers: this.authHeaders()
+      }).subscribe(resultss => {
+        this.results = resultss;
+        console.log('resultss', resultss);
         observer.next(this.results);
         observer.complete();
       });
     });
+    setTimeout(() => {
+      
+    }, timeout);
   }
 
 }

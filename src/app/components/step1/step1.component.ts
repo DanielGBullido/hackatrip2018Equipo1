@@ -46,8 +46,9 @@ export class Step1Component implements OnInit {
   }
 
   go() {
-    this.router.navigate(['/step2']);
     localStorage.setItem('cuidad', this.ciudad);
+    this.router.navigate(['/step2']);
+   
 
   }
 

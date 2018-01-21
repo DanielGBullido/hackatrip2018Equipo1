@@ -21,7 +21,7 @@ export class Step3Component implements OnInit {
   dato1: any;
   dato2: any;
   dato3: any;
-  constructor(private router: Router,  protected bbvaService: BbvaService, protected hcService: HcService) {
+  constructor(private router: Router, protected bbvaService: BbvaService, protected hcService: HcService) {
     //media precio hotel
     router.events.subscribe(
       event => {
@@ -38,10 +38,10 @@ export class Step3Component implements OnInit {
   }
 
   ngOnInit() {
-// console.log('route', this.route);
-console.log('router', this.router);
-this.getInfoBbva(localStorage.getItem('token'));
-this.getDestination(localStorage.getItem('ciudad'));
+    // console.log('route', this.route);
+    console.log('router', this.router);
+    this.getInfoBbva(localStorage.getItem('token'));
+    // this.getDestination(localStorage.getItem('ciudad'));
     // console.log('route', this.route);
     console.log('router', this.router);
     this.duracion = localStorage.getItem('duracion');
@@ -64,8 +64,8 @@ this.getDestination(localStorage.getItem('ciudad'));
     console.log('infobbva: ', fullinfo);
   }
   getDestination(destination: string) {
-    let destinatios ='';
-     this.hcService.getDestination('Porto').subscribe(data => {
+    let destinatios = '';
+    this.hcService.getDestination('Porto').subscribe(data => {
       destinatios = data;
     });
     console.log('infoDestino: ', destinatios);
